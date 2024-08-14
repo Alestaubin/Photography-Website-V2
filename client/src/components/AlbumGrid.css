@@ -1,0 +1,110 @@
+.invalid-feedback,
+.empty-feedback {
+    display: none;
+}
+
+.was-validated :placeholder-shown:invalid ~ .empty-feedback {
+    display: block;
+}
+
+.was-validated :not(:placeholder-shown):invalid ~ .invalid-feedback {
+    display: block;
+}
+
+.is-invalid,
+.was-validated :invalid {
+    border-color: #dc3545;
+}
+.image-container img {
+    width: 100%;
+    -webkit-filter: brightness(100%);
+}
+
+.image-container img:hover {
+    -webkit-filter: brightness(70%);
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+.image-container {
+    position: relative;
+    display: inline-block;
+    width: 95%;
+}
+
+.image-label {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    font-size: xx-large;
+    color: white;
+    pointer-events: none; /* This is important to make the label on the image clickable */
+}
+
+.image-container:hover .image-label {
+    opacity: 1;
+}
+
+.col {
+    padding-left: 3px;
+    padding-right: 3px;
+}
+/* ---- grid ---- */
+.grid {
+  background:#ffffff;
+}
+
+/* clear fix */
+.grid:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+/* ---- .grid-item ---- */
+.album-grid-sizer,
+.album-grid-item{
+  /* 2 columns by default */
+  width: 50%;
+}
+.grid-sizer,
+.grid-item {
+    /* 3 columns by default */
+    width: 33.333%;
+}
+
+@media screen and (max-width: 1500px) {
+    /* 1 column */
+    .album-grid-sizer,
+    .album-grid-item{
+        width: 100%;
+    }
+    /* 2 columns */
+    .grid-sizer,
+    .grid-item { width: 50%; }
+}
+
+@media screen and (max-width: 700px) {
+    /* 1 column for smaller screens */
+    .grid-sizer, 
+    .grid-item { width: 100%; }
+}
+.album-grid-item{
+  margin-bottom: 30px;
+  float: left;
+}
+.grid-item {
+    float: left;
+}
+
+.grid-item img {
+    display: block;
+    max-width: 100%;
+}
+

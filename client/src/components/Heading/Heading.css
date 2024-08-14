@@ -1,0 +1,18 @@
+.heading {
+    margin-left: 20vw;
+    width: 80vw;
+    position: fixed;
+    font-size: 4rem;
+    color: white;
+    text-align: right;
+    overflow-wrap: break-word;
+    hyphens: auto;
+    mix-blend-mode: exclusion;
+    font-weight: 900;
+    line-height: 10rem;
+    z-index: 99;
+    pointer-events: none;
+}
+.font-size-lg {
+    font-size: 4rem;
+}

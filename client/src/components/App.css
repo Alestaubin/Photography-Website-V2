@@ -1,0 +1,15 @@
+.App {
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  overflow-y: hidden;
+  overflow-x: scroll;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+
