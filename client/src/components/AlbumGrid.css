@@ -88,6 +88,7 @@
     /* 2 columns */
     .grid-sizer,
     .grid-item { width: 50%; }
+
 }
 
 @media screen and (max-width: 700px) {
@@ -108,3 +109,8 @@
     max-width: 100%;
 }
 
+@media (hover: none) {
+    .image-label {
+        opacity: 1;
+    }
+}
