@@ -113,6 +113,8 @@
     .image-label {
         opacity: 1;
         font-size: small;
+    }
+    .image-container img {
         -webkit-filter: brightness(70%);
     }
 }
