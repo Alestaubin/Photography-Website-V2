@@ -61,4 +61,4 @@ ImageGrid.propTypes = {
   ).isRequired,
 };
 
-export default Imag
+export default ImageGrid;

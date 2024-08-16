@@ -42,4 +42,5 @@
     display: block;
     max-width: 100%;
     float: left;
- 
+    position: static;
+}

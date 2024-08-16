@@ -48,4 +48,9 @@ function Navigation() {
             </ul>
           </div>
         </div>
-      </n
+      </nav>
+    </div>
+  );
+}
+
+export default Navigation;
