@@ -53,6 +53,7 @@ ReactDOM.render(
         <Route path="/WinterMcGill" element={<WinterMcGill />} />
         <Route path="/SummerMcGill" element={<SummerMcGill />} />
         <Route path="/Toronto" element={<Toronto />} />
+        <Route path="/Norge" element={<Norge />} />
         <Route path="/Golf" element={<Golf />} />
       <Route path="/Commercial" element={<Commercial />} />
         <Route path="/GertsFood" element={<GertsFood />} />

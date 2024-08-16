@@ -5,6 +5,11 @@ const UnsplashImages = [
         description: null
     },
     {
+        src: "https://res.cloudinary.com/dkbw0dpyp/image/upload/v1723808744/personal/Norge/vqzt5f9dcj9us4jvyeur.jpg",
+        title: "Aurlandsfjellet",
+        description: "A scenic route atop Aurlandsfjellet in Norway. The Bjorgavegen road is above the Lærdalstunnelen, the world's longest road tunnel."
+    },
+    {
         src: "https://res.cloudinary.com/dkbw0dpyp/image/upload/v1721916912/portfolio/hzp87u9dppcmxkh1lfx6.jpg",
         title: "Mont Sutton",
         description: null

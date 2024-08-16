@@ -3,6 +3,12 @@ import AlbumGrid from "../AlbumGrid";
 
 const eventsData = [
     {
+        link: "/Norge",
+        imgSrc: "https://res.cloudinary.com/dkbw0dpyp/image/upload/v1723808744/personal/Norge/vqzt5f9dcj9us4jvyeur.jpg",
+        alt: "Norway",
+        label: "Norway 2024",
+      },
+    {
         link: "/Toronto",
         imgSrc: "https://res.cloudinary.com/dkbw0dpyp/image/upload/v1721926465/personal/toronto/sggusqhtienw92pltkop.jpg",
         alt: "Toronto",
