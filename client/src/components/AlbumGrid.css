@@ -112,5 +112,6 @@
 @media (hover: none) {
     .image-label {
         opacity: 1;
+        font-size: small;
     }
 }
