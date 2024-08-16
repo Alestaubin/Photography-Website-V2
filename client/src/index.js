@@ -30,6 +30,7 @@ import {
   SummerMcGill,
   Toronto,
   Golf,
+  Norge,
 } from "./components";
 
 ReactDOM.render(
