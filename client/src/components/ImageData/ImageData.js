@@ -17,37 +17,37 @@ const UnsplashImages = [
     {
         src: "https://res.cloudinary.com/dkbw0dpyp/image/upload/v1721916909/portfolio/t7kl4lmixh4mdwqdlvme.jpg",
         title: "Cape Cod",
-        description: "Silouhettes of a boy and a fishing boat at sunset in Cape Cod."
+        description: null
     },
     {
         src: "https://res.cloudinary.com/dkbw0dpyp/image/upload/v1721917382/portfolio/sgmqafzqrhdhz23rdvcy.jpg",
-        title: "CN",
-        description: "The CN Tower in Toronto."
+        title: "The CN Tower in Toronto",
+        description: null
     },
     {
         src: "https://res.cloudinary.com/dkbw0dpyp/image/upload/v1721917382/portfolio/ugxtkl6uhkpgqozsyjql.jpg",
-        title: "Toronto",
-        description: "The Toronto skyline."
+        title: "The Toronto skyline",
+        description: null
     },
     {
         src: "https://res.cloudinary.com/dkbw0dpyp/image/upload/v1721917382/portfolio/yebt4d5fwxetdldj31j8.jpg",
-        title: "Yonge",
-        description: "Yonge Street in Toronto."
+        title: "Yonge street",
+        description: null
     },
     {
         src: "https://res.cloudinary.com/dkbw0dpyp/image/upload/v1721917406/portfolio/xwsnzqn4i4nsug7nohdi.jpg",
         title: "HEC Montréal",
-        description: "Portrait of students at HEC Montréal."
+        description: null
     },
     {
         src: "https://res.cloudinary.com/dkbw0dpyp/image/upload/v1721917459/portfolio/hrb1bl3ofkazgfayry8y.jpg",
-        title: "Mardis Cyclistes",
-        description: "Riders in the Mardis Cyclistes de Lachine."
+        title: "Mardis Cyclistes de Lachine",
+        description: null
     },
     {
         src: "https://res.cloudinary.com/dkbw0dpyp/image/upload/v1721917459/portfolio/evv954slky3w7crdva1z.jpg",
-        title: "Mardis Cyclistes",
-        description: "Riders in the Mardis Cyclistes de Lachine."
+        title: "Mardis Cyclistes de Lachine",
+        description: null
     },
     {
         src: "https://res.cloudinary.com/dkbw0dpyp/image/upload/v1721916904/portfolio/zshcdizvevlycwzdgekl.jpg",
