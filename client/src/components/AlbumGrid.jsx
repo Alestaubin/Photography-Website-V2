@@ -32,7 +32,7 @@ function AlbumGrid({ items }) {
   }
 
   return (
-    <div id="image_display" className="container-fluid text-center overflow-auto p-5 pt-5">
+    <div id="image_display" className="container-fluid text-center overflow-auto p-5 py-5 mt-2 mb-3">
       <div className="album-grid" id="album-grid">
         <div className="album-grid-sizer"></div>
         {items.map((item, index) => (

@@ -33,19 +33,17 @@ function ImageGrid({ items }) {
   }
 
   return (
-    <div id="image_display" className="container-fluid text-center overflow-auto p-5 pt-5">
+    <div id="image_display" className="container-fluid text-center overflow-auto py-5 mt-2 mb-3">
       <div className="image-grid" id="image-grid">
         <div className="image-grid-sizer"></div>
         {items.map((item, index) => (
           <div className="image-grid-item" key={index}>
-            <div className="simple-image-container">
                 <ModalImage
                     small={item.imgSrcSmll}
                     large={item.imgSrcLrg}
                     hideZoom={false}
                     hideDownload={true}
                 />
-            </div>
           </div>
         ))}
       </div>

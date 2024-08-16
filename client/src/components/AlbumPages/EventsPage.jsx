@@ -4,7 +4,7 @@ import AlbumGrid from "../AlbumGrid";
 const eventsData = [
   {
     link: "/OAP",
-    imgSrc: "https://res.cloudinary.com/dkbw0dpyp/image/upload/v1721926518/events/OAP/milnwloserqnzmpeshyg.jpg",
+    imgSrc: "https://res.cloudinary.com/dkbw0dpyp/image/upload/v1723787348/events/OAP/ouh1uwhyilwxdvl9tqpy.jpg",
     alt: "OAP",
     label: "Open Air Pub (McGill)",
   },
