@@ -13,6 +13,7 @@ cloudinary.config(
 def list_photos_in_folder(folder_name, reverse=False):
     """List all photo URLs in a specified Cloudinary folder."""
     photos = []
+    photos_small = []
     next_cursor = None
     
     while True:
@@ -25,6 +26,7 @@ def list_photos_in_folder(folder_name, reverse=False):
         for resource in response.get('resources', []):
             photos.append(resource['secure_url'])
             print("secure_url", resource['secure_url'])
+            photos_small.append(resource['secure_url'].replace("upload/", "upload/c_scale,w_768/"))
 
         next_cursor = response.get('next_cursor')
         print("next_cursor", next_cursor)   
@@ -32,7 +34,8 @@ def list_photos_in_folder(folder_name, reverse=False):
             break
     if reverse:
         photos.reverse()
-    return photos
+        photos_small.reverse()
+    return photos, photos_small
 
 def save_urls_to_csv(photo_urls, output_file):
     """Save a list of photo URLs to a CSV file."""
@@ -44,7 +47,7 @@ def save_urls_to_csv(photo_urls, output_file):
 
 import os
 
-def create_jsx_file(urls, path, alt):
+def create_jsx_file(urls_small, urls_large, path, alt):
     # Start of the JSX content
     jsx_content = '''import React from "react";
 import ImageGrid from "../../ImageGrid";
@@ -53,11 +56,11 @@ const App = () => {
     const images = ['''
     
     # Dynamically add the image objects based on the URLs list
-    for url in urls:
+    for i in range(len(urls_small)):
         jsx_content += f'''
         {{
-            imgSrcSmll: "{url}",
-            imgSrcLrg: "{url}",
+            imgSrcSmll: "{urls_small[i]}",
+            imgSrcLrg: "{urls_large[i]}",
             alt: "{alt}",
         }},'''
 
@@ -90,6 +93,7 @@ if __name__ == "__main__":
     # add an argument to specify if urls should be saved to csv or .jsx directly
     parser.add_argument("--save_to_jsx", action="store_true", help="Save URLs to a JSX file")
     parser.add_argument("--reverse", action="store_true", help="Reverse the order of the URLs")
+    parser.add_argument("--alt", type=str, default="photo",help="Alt text for the images")
 
     args = parser.parse_args()
 
@@ -97,12 +101,12 @@ if __name__ == "__main__":
     output_file = args.output_file
 
     # Fetch photo URLs from the specified folder
-    photo_urls = list_photos_in_folder(folder_name, reverse=args.reverse)
+    photo_urls_large, photo_urls_small = list_photos_in_folder(folder_name=folder_name, reverse=args.reverse)
 
     # Maybe save the URLs to a CSV file
     if args.save_to_jsx:
-        create_jsx_file(urls=photo_urls, path=args.output_file, alt=args.folder_name)
+        create_jsx_file(urls_small=photo_urls_small, urls_large=photo_urls_large,path=output_file, alt=args.alt)
     else:
-        save_urls_to_csv(photo_urls, output_file)
+        save_urls_to_csv(photo_urls_large, output_file)
 
-    print(f"Saved {len(photo_urls)} photo URLs to {output_file}")
+    print(f"Saved {len(photo_urls_small)} photo URLs to {output_file}")

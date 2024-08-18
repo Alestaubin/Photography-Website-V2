@@ -44,3 +44,6 @@
     float: left;
     position: static;
 }
+html, body {
+    overflow: visible;
+}

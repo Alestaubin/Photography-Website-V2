@@ -47,7 +47,6 @@ ReactDOM.render(
         <Route path="/CritPavMil23" element={<CritPavMil23 />} />
         <Route path="/CoupeLaurentides23" element={<CoupeLaurentides23 />} />
         <Route path="/CamoNat24" element={<CamoNat24 />} />
-        <Route path="/GPVEL23" element={<GPVEL23 />} />
       <Route path="/Personal" element={<Personal />} />
         <Route path="/Dogs" element={<Dogs />} />
         <Route path="/FallMcGill" element={<FallMcGill />} />

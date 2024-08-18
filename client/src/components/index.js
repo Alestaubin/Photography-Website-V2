@@ -31,7 +31,3 @@ export { default as SummerMcGill } from "./ImagePages/personal/SummerMcGillGalle
 export { default as Toronto } from "./ImagePages/personal/TorontoGallery";
 export { default as Golf } from "./ImagePages/personal/GolfGallery";
 export { default as Norge } from "./ImagePages/personal/NorgeGallery";
-
-
-
-
