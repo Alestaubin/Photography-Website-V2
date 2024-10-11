@@ -14,7 +14,6 @@ import {
   Personal,
   Commercial,
   GPVEL24,
-  GPVEL23,
   MardiCycle24,
   CritPavMil23,
   CoupeLaurentides23,
