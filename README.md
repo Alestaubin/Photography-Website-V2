@@ -4,7 +4,7 @@
 1. Upload the photos to cloudinary. 
 2. Run the script to fetch the urls and create the `ImagePage` jsx file. 
 ```bash
-python utils/fetch_urls.py --folder_name "sports/demiLachine2024" --output_file "client/src/components/ImagePages/sports/demiLachine.jsx" --save_to_jsx --alt "demiLachine2024" --reverse
+python utils/fetch_urls.py --folder_name "sports/demiLachine2024" --output_file "client/src/components/ImagePages/sports/demiLachine24.jsx" --save_to_jsx --alt "demiLachine2024" --reverse
 ```
 3. Add the album cover to the corresponding album page (if it's a sports album, then `AlbumPages/SportsPage.jsx`)
 ```js
