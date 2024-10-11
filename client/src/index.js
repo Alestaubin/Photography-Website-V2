@@ -31,7 +31,7 @@ import {
   Toronto,
   Golf,
   Norge,
-  demiLachine24,
+  demilachine24,
 } from "./components";
 
 ReactDOM.render(
@@ -43,7 +43,7 @@ ReactDOM.render(
         <Route path="/OAP" element={<OAP />} />
         <Route path="/BdaGallery" element={<BdaGallery />} />
       <Route path="/Sports" element={<Sports />} />
-        <Route path="/demiLachine24" element={<demiLachine24 />} />
+        <Route path="/demilachine24" element={<demilachine24 />} />
         <Route path="/GPVEL24" element={<GPVEL24 />} />
         <Route path="/MardiCycle24" element={<MardiCycle24 />} />
         <Route path="/CritPavMil23" element={<CritPavMil23 />} />

@@ -16,7 +16,7 @@ export { default as MardiCycle24 } from "./ImagePages/sports/MardiCyclisteGaller
 export { default as CritPavMil23 } from "./ImagePages/sports/CritPavMilGallery";
 export { default as CoupeLaurentides23 } from "./ImagePages/sports/CoupeDesLaurentidesGallery";
 export { default as CamoNat24 } from "./ImagePages/sports/CamoGallery";
-export { default as demiLachine24 } from "./ImagePages/sports/demiLachine24.jsx"
+export { default as demilachine24 } from "./ImagePages/sports/demilachine24.jsx"
 
 export { default as GertsFood } from "./ImagePages/commercial/GertsFoodGallery.jsx";
 export { default as Hec5 } from "./ImagePages/commercial/Hec5Gallery.jsx";
