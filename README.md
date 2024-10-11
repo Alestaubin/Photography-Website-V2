@@ -22,6 +22,6 @@ export { default as demiLachine24 } from "./ImagePages/sports/demiLachine24"
 5. Add `demiLachine24` to the imports in `client/src/index.js`.
 6. Add the following line to the routes in `client/src/index.js`
 ```js
-<Route path="/demiLachine" element={<demiLachine24 />} />
+<Route path="/demiLachine24" element={<demiLachine24 />} />
 ```
 
