@@ -3,6 +3,12 @@ import AlbumGrid from "../AlbumGrid";
 
 const eventsData = [
   {
+    link: "/demiLachine24",
+    imgSrc: "https://res.cloudinary.com/dkbw0dpyp/image/upload/c_scale,w_768/v1728657700/sports/demiLachine2024/jx3o6tqzefkx91agirss.jpg",
+    alt: "demiLachine24",
+    label: "Demi-Marathon Bonneville de Lachine 2024",
+  },
+  {
     link: "/GPVEL24",
     imgSrc: "https://res.cloudinary.com/dkbw0dpyp/image/upload/v1721926431/sports/GPVEL2024/bhx27q7qpufzq4aprhj0.jpg",
     alt: "GPVEL24",

@@ -110,3 +110,4 @@ if __name__ == "__main__":
         save_urls_to_csv(photo_urls_large, output_file)
 
     print(f"Saved {len(photo_urls_small)} photo URLs to {output_file}")
+
