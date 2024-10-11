@@ -13,6 +13,7 @@ import {
   Sports,
   Personal,
   Commercial,
+  demiLachine24,
   GPVEL24,
   MardiCycle24,
   CritPavMil23,
@@ -30,7 +31,6 @@ import {
   Toronto,
   Golf,
   Norge,
-  demiLachine24,
 } from "./components";
 
 ReactDOM.render(
