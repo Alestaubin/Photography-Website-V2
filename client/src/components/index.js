@@ -11,7 +11,7 @@ export { default as Contact } from "./Contact";
 export { default as OAP } from "./ImagePages/events/OapGallery";
 export { default as BdaGallery } from "./ImagePages/events/BdaGallery";
 
-export { default as demiLachine24 } from "./ImagePages/sports/demiLachine24.jsx"
+export { default as DEMI24 } from "./ImagePages/sports/DEMI24.jsx"
 export { default as GPVEL24 } from "./ImagePages/sports/GPvel24Gallery";
 export { default as MardiCycle24 } from "./ImagePages/sports/MardiCyclisteGallery";
 export { default as CritPavMil23 } from "./ImagePages/sports/CritPavMilGallery";

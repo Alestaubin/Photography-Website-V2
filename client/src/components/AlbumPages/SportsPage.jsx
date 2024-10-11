@@ -3,9 +3,9 @@ import AlbumGrid from "../AlbumGrid";
 
 const eventsData = [
   {
-    link: "/demiLachine24",
+    link: "/DEMI24",
     imgSrc: "https://res.cloudinary.com/dkbw0dpyp/image/upload/c_scale,w_768/v1728657691/sports/demiLachine2024/biudyberdonphkfzygkx.jpg",
-    alt: "demiLachine24",
+    alt: "DEMI24",
     label: "Demi-Marathon Bonneville de Lachine 2024",
   },
   {
