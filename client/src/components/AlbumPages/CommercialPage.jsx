@@ -3,6 +3,12 @@ import AlbumGrid from "../AlbumGrid";
 
 const eventsData = [
   {
+    link: "/MARIAGE_RAPH_FEL_24",
+    imgSrc: "https://res.cloudinary.com/dkbw0dpyp/image/upload/v1729784407/commercial/mariage_fel_raph/it7xy3nuqdknjbkejwjc.jpg",
+    alt: "Mariage de Félix et Raphaelle",
+    label: "Mariage de Félix et Raphaelle",
+  },
+  {
     link: "/Hec24",
     imgSrc: "https://res.cloudinary.com/dkbw0dpyp/image/upload/v1723789872/commercial/Hec24/lmeupsexbbaudkf1rukd.jpg",
     alt: "Hec24",

@@ -18,6 +18,7 @@ export { default as CritPavMil23 } from "./ImagePages/sports/CritPavMilGallery";
 export { default as CoupeLaurentides23 } from "./ImagePages/sports/CoupeDesLaurentidesGallery";
 export { default as CamoNat24 } from "./ImagePages/sports/CamoGallery";
 
+export { default as MARIAGE_RAPH_FEL_24 } from "./ImagePages/commercial/mariage_raph_fel_24.jsx"
 export { default as GertsFood } from "./ImagePages/commercial/GertsFoodGallery.jsx";
 export { default as Hec5 } from "./ImagePages/commercial/Hec5Gallery.jsx";
 export { default as Hec24 } from "./ImagePages/commercial/Hec24Gallery.jsx";

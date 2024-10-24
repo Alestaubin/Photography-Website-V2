@@ -31,6 +31,7 @@ import {
   Toronto,
   Golf,
   Norge,
+  MARIAGE_RAPH_FEL_24,
 } from "./components";
 
 ReactDOM.render(
@@ -57,6 +58,7 @@ ReactDOM.render(
         <Route path="/Norge" element={<Norge />} />
         <Route path="/Golf" element={<Golf />} />
       <Route path="/Commercial" element={<Commercial />} />
+        <Route path="/MARIAGE_RAPH_FEL_24" element={<MARIAGE_RAPH_FEL_24 />} />
         <Route path="/GertsFood" element={<GertsFood />} />
         <Route path="/Hec5" element={<Hec5 />} />
         <Route path="/Hec24" element={<Hec24 />} />
