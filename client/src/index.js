@@ -57,12 +57,10 @@ ReactDOM.render(
         <Route path="/Toronto" element={<Toronto />} />
         <Route path="/Norge" element={<Norge />} />
         <Route path="/Golf" element={<Golf />} />
-      <Route path="/Commercial" element={<Commercial />} />
+      <Route path="/Commercial" element={<People />} />
         <Route path="/MARIAGE_RAPH_FEL_24" element={<MARIAGE_RAPH_FEL_24 />} />
-        <Route path="/GertsFood" element={<GertsFood />} />
         <Route path="/Hec5" element={<Hec5 />} />
         <Route path="/Hec24" element={<Hec24 />} />
-        <Route path="/SSMUhandbook" element={<SSMUhandbook />} />
         <Route path="/VitreEtudiant" element={<VitreEtudiant />} />
       <Route path="/contact" element={<Contact />} />
     </Routes>
