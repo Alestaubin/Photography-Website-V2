@@ -32,6 +32,7 @@ import {
   Golf,
   Norge,
   MARIAGE_RAPH_FEL_24,
+  Integ_uqam_24,
 } from "./components";
 
 ReactDOM.render(
@@ -40,6 +41,7 @@ ReactDOM.render(
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/Events" element={<Events />} />
+        <Route path="/Integ_uqam_24" element={<Integ_uqam_24 />} />
         <Route path="/OAP" element={<OAP />} />
         <Route path="/BdaGallery" element={<BdaGallery />} />
       <Route path="/Sports" element={<Sports />} />
