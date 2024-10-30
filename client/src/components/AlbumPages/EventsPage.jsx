@@ -3,6 +3,12 @@ import AlbumGrid from "../AlbumGrid";
 
 const eventsData = [
   {
+    link: "/diner_olo_24",
+    imgSrc: "  https://res.cloudinary.com/dkbw0dpyp/image/upload/c_scale,w_768/v1730308043/events/diner-olo-24/cvowyrdyu71zxhd2t1c0.jpg",
+    alt: "diner_olo_24",
+    label: "Dîner Fondation Olo 2024",
+  },
+  {
     link: "/Integ_uqam_24",
     imgSrc: "https://res.cloudinary.com/dkbw0dpyp/image/upload/c_scale,w_768/v1730245846/events/integ_uqam/gtkhjoisrc5ewvcsfjpq.jpg",
     alt: "Integ_uqam_24",
