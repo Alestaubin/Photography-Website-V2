@@ -3,6 +3,12 @@ import AlbumGrid from "../AlbumGrid";
 
 const eventsData = [
   {
+    link: "/Halloween_rouge_2024",
+    imgSrc: "https://res.cloudinary.com/dkbw0dpyp/image/upload/c_scale,w_768/v1730694589/events/halloween-rouge/kuzma4a0wo6le75ccyl7.jpg",
+    alt: "Halloween_rouge_2024",
+    label: "Halloween 2024 @ Rouge Bar",
+  },
+  {
     link: "/Halloween_yoko_2024",
     imgSrc: "https://res.cloudinary.com/dkbw0dpyp/image/upload/c_scale,w_768/v1730693303/events/halloween-yoko/fpduquylg4jpszj7dqt9.jpg",
     alt: "Halloween_yoko_2024",
