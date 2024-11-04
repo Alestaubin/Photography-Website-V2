@@ -3,8 +3,14 @@ import AlbumGrid from "../AlbumGrid";
 
 const eventsData = [
   {
+    link: "/Halloween_yoko_2024",
+    imgSrc: "https://res.cloudinary.com/dkbw0dpyp/image/upload/c_scale,w_768/v1730693303/events/halloween-yoko/fpduquylg4jpszj7dqt9.jpg",
+    alt: "Halloween_yoko_2024",
+    label: "Halloween 2024 @ Yoko Luna",
+  },
+  {
     link: "/PERT_board_2024",
-    imgSrc: "https://res.cloudinary.com/dkbw0dpyp/image/upload/c_scale,w_768/v1730692869/events/PERT-board/ixcecnruq6icykullkbb.jpg",
+    imgSrc: "https://res.cloudinary.com/dkbw0dpyp/image/upload/c_scale,w_768/v1730692917/events/PERT-board/hhbwtqzhxc3eeizague0.jpg",
     alt: "PERT_board_2024",
     label: "PERT Board Meeting 2024",
   },
