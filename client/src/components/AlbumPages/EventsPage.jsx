@@ -3,8 +3,14 @@ import AlbumGrid from "../AlbumGrid";
 
 const eventsData = [
   {
+    link: "/PERT_board_2024",
+    imgSrc: "https://res.cloudinary.com/dkbw0dpyp/image/upload/c_scale,w_768/v1730692869/events/PERT-board/ixcecnruq6icykullkbb.jpg",
+    alt: "PERT_board_2024",
+    label: "PERT Board Meeting 2024",
+  },
+  {
     link: "/diner_olo_24",
-    imgSrc: "  https://res.cloudinary.com/dkbw0dpyp/image/upload/c_scale,w_768/v1730308043/events/diner-olo-24/cvowyrdyu71zxhd2t1c0.jpg",
+    imgSrc: "https://res.cloudinary.com/dkbw0dpyp/image/upload/c_scale,w_768/v1730308043/events/diner-olo-24/cvowyrdyu71zxhd2t1c0.jpg",
     alt: "diner_olo_24",
     label: "Dîner Fondation Olo 2024",
   },
