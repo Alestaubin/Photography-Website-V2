@@ -13,6 +13,7 @@ export { default as BdaGallery } from "./ImagePages/events/BdaGallery";
 export { default as Integ_uqam_24 } from "./ImagePages/events/Integ_uqam_24.jsx";
 export { default as Diner_olo_24 } from "./ImagePages/events/diner_olo_24.jsx";
 export { default as PERT_board_2024 } from "./ImagePages/events/PERT_board_2024.jsx";
+export { default as Halloween_yoko_2024 } from "./ImagePages/events/halloween_yoko_2024.jsx";
 export { default as Halloween_rouge_2024 } from "./ImagePages/events/halloween_rouge_2024.jsx";
 
 export { default as DEMI24 } from "./ImagePages/sports/DEMI24.jsx"
