@@ -160,9 +160,9 @@ def get_album_page_path(album):
         exit
     return first + second
 
-def append_export_line(export_name, albumGroup):
+def append_export_line(filename, export_name, albumGroup):
     # Format the line to append
-    line_to_append = f'export {{ default as {export_name} }} from "./ImagePages/{albumGroup}/{export_name}.jsx";\n'
+    line_to_append = f'export {{ default as {export_name} }} from "./ImagePages/{albumGroup}/{filename}.jsx";\n'
     file_path = "client/src/components/index.js"
     try:
         # Open the file in append mode
@@ -259,7 +259,9 @@ if __name__ == "__main__":
 
     filename_with_extension = os.path.basename(output_file)
     # Split the filename and extension
-    export_name = os.path.splitext(filename_with_extension)[0].upper()
+
+    filename = os.path.splitext(filename_with_extension)[0]
+    export_name = filename.upper()
 
     # set the album thumbnail info
     new_album = {}
@@ -272,7 +274,7 @@ if __name__ == "__main__":
     prepend_album(file_path=albumPagePath, new_album=new_album)
 
     # add the export line to src/components/index.js
-    append_export_line(export_name=export_name, albumGroup=albumGroup)
+    append_export_line(filename=filename, export_name=export_name, albumGroup=albumGroup)
 
     # add the route 
     update_routes_and_imports(export_name=export_name, album_group=albumGroup)
