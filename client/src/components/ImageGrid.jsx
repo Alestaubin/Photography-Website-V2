@@ -38,7 +38,7 @@ function ImageGrid({ items }) {
   }
 
   return (
-    <div id="image_display" className="container-fluid text-center overflow-y-scroll p-4 py-5 mt-2 mb-3">
+    <div id="image_display" className="container-fluid text-center overflow-y-scroll py-5 mt-2 mb-3">
       <div className="image-grid overflow-y-scroll" id="image-grid">
         <div id="image-grid-sizer" className="image-grid-sizer"></div>
         {items.map((item, index) => (

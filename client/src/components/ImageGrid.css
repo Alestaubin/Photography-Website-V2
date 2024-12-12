@@ -46,11 +46,9 @@
     margin-top: 4px;
     margin-bottom: 4px;
 }
+.image-grid-item, img{
+    width: 95%;
+}
 html, body {
     overflow: visible;
-}
-
-.col {
-    padding-left: 3px;
-    padding-right: 3px;
 }
