@@ -32,7 +32,7 @@
 .image-container {
     position: relative;
     display: inline-block;
-    width: 95%;
+    width: 90%;
 }
 
 .image-label {
@@ -94,6 +94,11 @@
 
 @media screen and (max-width: 700px) {
     /* 1 column for smaller screens */
+    .album-grid-sizer,
+    .album-grid-item{
+        width: 100%;
+    }
+
     .grid-sizer, 
     .grid-item { width: 100%; }
 }
