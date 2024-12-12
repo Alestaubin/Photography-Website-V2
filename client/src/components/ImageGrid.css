@@ -43,8 +43,14 @@
     max-width: 100%;
     float: left;
     position: static;
-    margin: 4px;
+    margin-top: 4px;
+    margin-bottom: 4px;
 }
 html, body {
     overflow: visible;
+}
+
+.col {
+    padding-left: 3px;
+    padding-right: 3px;
 }
