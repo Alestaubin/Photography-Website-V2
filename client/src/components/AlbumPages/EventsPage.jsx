@@ -4,8 +4,8 @@ import AlbumGrid from "../AlbumGrid";
 const albumsData = [
 
   {
-    link: "/pertMentLaunch",
-    imgSrc: "https://res.cloudinary.com/dkbw0dpyp/image/upload/c_scale,w_768/v1734023483/events/PERT-Mentorship/uitb7jnvtyrgmgzhfoef.jpg",
+    link: "/PERTMENTLAUNCH",
+    imgSrc: "https://res.cloudinary.com/dkbw0dpyp/image/upload/c_scale,w_768/v1734023482/events/PERT-Mentorship/qzypjayic9uyd36n2zsi.jpg",
     alt: "PERT_Mentorship_Launch",
     label: "PERT Mentorship Launch",
   },

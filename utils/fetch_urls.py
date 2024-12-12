@@ -259,7 +259,7 @@ if __name__ == "__main__":
 
     filename_with_extension = os.path.basename(output_file)
     # Split the filename and extension
-    export_name = os.path.splitext(filename_with_extension)[0]
+    export_name = os.path.splitext(filename_with_extension)[0].upper()
 
     # set the album thumbnail info
     new_album = {}
@@ -278,4 +278,3 @@ if __name__ == "__main__":
     update_routes_and_imports(export_name=export_name, album_group=albumGroup)
 
     print(f"Saved {len(photo_urls_small)} photo URLs to {output_file}")
-
