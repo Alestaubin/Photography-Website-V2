@@ -72,7 +72,7 @@
 .album-grid-sizer,
 .album-grid-item{
   /* 2 columns by default */
-  width: 50%;
+  width: 33.333%;
 }
 .grid-sizer,
 .grid-item {
@@ -84,7 +84,7 @@
     /* 1 column */
     .album-grid-sizer,
     .album-grid-item{
-        width: 100%;
+        width: 50%;
     }
     /* 2 columns */
     .grid-sizer,

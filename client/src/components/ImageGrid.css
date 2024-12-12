@@ -14,7 +14,7 @@
 /* ---- .grid-item ---- */
 .image-grid-sizer,
 .image-grid-item{
-  /* 2 columns by default */
+  /* 3 columns by default */
   width: 33.333%;
 }
 /* make the image slightly larger than the image-grid */
