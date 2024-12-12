@@ -36,4 +36,6 @@ export { default as WinterMcGill } from "./ImagePages/personal/WinterMcGillGalle
 export { default as SummerMcGill } from "./ImagePages/personal/SummerMcGillGallery";
 export { default as Toronto } from "./ImagePages/personal/TorontoGallery";
 export { default as Golf } from "./ImagePages/personal/GolfGallery";
-export { default as Norge } from "./ImagePages/personal/NorgeGallery";export { default as PERTMENTLAUNCH } from "./ImagePages/events/pertMentLaunch.jsx";
+export { default as Norge } from "./ImagePages/personal/NorgeGallery";
+export { default as PERTMENTLAUNCH } from "./ImagePages/events/pertMentLaunch.jsx";
+export { default as UDES_MED_24 } from "./ImagePages/events/UDES_med_24.jsx";

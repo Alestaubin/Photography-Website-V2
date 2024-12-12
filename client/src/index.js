@@ -38,6 +38,7 @@ import {
   Halloween_yoko_2024,
   Halloween_rouge_2024,
   PERTMENTLAUNCH,
+  UDES_MED_24,
 } from "./components";
 
 ReactDOM.render(
@@ -46,6 +47,7 @@ ReactDOM.render(
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/Events" element={<Events />} />
+      <Route path="/UDES_MED_24" element={<UDES_MED_24/>} />
       <Route path="/PERTMENTLAUNCH" element={<PERTMENTLAUNCH/>} />
         <Route path="/Halloween_rouge_2024" element={<Halloween_rouge_2024/>} />
         <Route path="/Halloween_yoko_2024" element={<Halloween_yoko_2024/>} />

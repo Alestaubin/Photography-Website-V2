@@ -2,9 +2,16 @@ import React from "react";
 import AlbumGrid from "../AlbumGrid";
 
 const albumsData = [
+
   {
+    link: "/UDES_MED_24",
+    imgSrc: "https://res.cloudinary.com/dkbw0dpyp/image/upload/c_scale,w_768/v1734030134/events/UDES-med/xkcljoiguxjil1uv7zqu.jpg",
+    alt: "UDES_Med_-_Cérémonie_de_Consécration",
+    label: "UDES Med - Cérémonie de Consécration",
+  },
+{
     link: "/PERTMENTLAUNCH",
-    imgSrc: "https://res.cloudinary.com/dkbw0dpyp/image/upload/c_scale,w_768/v1734023482/events/PERT-Mentorship/qzypjayic9uyd36n2zsi.jpg",
+    imgSrc: "https://res.cloudinary.com/dkbw0dpyp/image/upload/c_scale,w_768/v1734023485/events/PERT-Mentorship/vswvlhmpwkuk0x6t3xf5.jpg",
     alt: "PERT_Mentorship_Launch",
     label: "PERT Mentorship Launch",
   },
