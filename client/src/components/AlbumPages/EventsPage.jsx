@@ -2,7 +2,6 @@ import React from "react";
 import AlbumGrid from "../AlbumGrid";
 
 const albumsData = [
-
   {
     link: "/PERTMENTLAUNCH",
     imgSrc: "https://res.cloudinary.com/dkbw0dpyp/image/upload/c_scale,w_768/v1734023482/events/PERT-Mentorship/qzypjayic9uyd36n2zsi.jpg",
