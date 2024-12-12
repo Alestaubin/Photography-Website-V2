@@ -1,8 +1,15 @@
 import React from "react";
 import AlbumGrid from "../AlbumGrid";
 
-const eventsData = [
+const albumsData = [
+
   {
+    link: "/pertMentLaunch",
+    imgSrc: "https://res.cloudinary.com/dkbw0dpyp/image/upload/c_scale,w_768/v1734023483/events/PERT-Mentorship/uitb7jnvtyrgmgzhfoef.jpg",
+    alt: "PERT_Mentorship_Launch",
+    label: "PERT Mentorship Launch",
+  },
+{
     link: "/Halloween_rouge_2024",
     imgSrc: "https://res.cloudinary.com/dkbw0dpyp/image/upload/c_scale,w_768/v1730694589/events/halloween-rouge/kuzma4a0wo6le75ccyl7.jpg",
     alt: "Halloween_rouge_2024",
@@ -49,7 +56,7 @@ const eventsData = [
 ];
 
 function EventsPage() {
-  return <AlbumGrid items={eventsData} />;
+  return <AlbumGrid items={albumsData} />;
 }
 
 export default EventsPage;

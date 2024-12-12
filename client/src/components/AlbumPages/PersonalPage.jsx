@@ -1,7 +1,7 @@
 import React from "react";
 import AlbumGrid from "../AlbumGrid";
 
-const eventsData = [
+const albumsData = [
     {
         link: "/Norge",
         imgSrc: "https://res.cloudinary.com/dkbw0dpyp/image/upload/v1723808744/personal/Norge/vqzt5f9dcj9us4jvyeur.jpg",
@@ -49,7 +49,7 @@ const eventsData = [
 ];
 
 function EventsPage() {
-  return <AlbumGrid items={eventsData} />;
+  return <AlbumGrid items={albumsData} />;
 }
 
 export default EventsPage;

@@ -43,6 +43,7 @@
     max-width: 100%;
     float: left;
     position: static;
+    margin-bottom: 9px;
 }
 html, body {
     overflow: visible;
