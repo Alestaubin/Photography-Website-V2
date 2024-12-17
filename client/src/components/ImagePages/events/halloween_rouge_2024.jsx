@@ -2,161 +2,166 @@ import React from "react";
 import ImageGrid from "../../ImageGrid";
 
 const App = () => {
+    const albumTitle = "Halloween @ Rouge Bar"
+    const albumDate = "October 2024"
+    const coverImage = {
+        src: "https://res.cloudinary.com/dkbw0dpyp/image/upload/v1730694624/events/halloween-rouge/zt2drl3ca8frs6nmghhi.jpg",
+        alt: "Halloween @ Rouge Bar"}
     const images = [
         {
             imgSrcSmll: "https://res.cloudinary.com/dkbw0dpyp/image/upload/c_scale,w_768/v1730694625/events/halloween-rouge/rrc3g3ibch47xbnmjzwy.jpg",
             imgSrcLrg: "https://res.cloudinary.com/dkbw0dpyp/image/upload/v1730694625/events/halloween-rouge/rrc3g3ibch47xbnmjzwy.jpg",
-            alt: "halloween_yoko_2024",
+            alt: "Halloween @ Rouge Bar",
         },
         {
             imgSrcSmll: "https://res.cloudinary.com/dkbw0dpyp/image/upload/c_scale,w_768/v1730694625/events/halloween-rouge/wmlhc5svthobsnigu5r2.jpg",
             imgSrcLrg: "https://res.cloudinary.com/dkbw0dpyp/image/upload/v1730694625/events/halloween-rouge/wmlhc5svthobsnigu5r2.jpg",
-            alt: "halloween_yoko_2024",
+            alt: "Halloween @ Rouge Bar",
         },
         {
             imgSrcSmll: "https://res.cloudinary.com/dkbw0dpyp/image/upload/c_scale,w_768/v1730694624/events/halloween-rouge/zt2drl3ca8frs6nmghhi.jpg",
             imgSrcLrg: "https://res.cloudinary.com/dkbw0dpyp/image/upload/v1730694624/events/halloween-rouge/zt2drl3ca8frs6nmghhi.jpg",
-            alt: "halloween_yoko_2024",
+            alt: "Halloween @ Rouge Bar",
         },
         {
             imgSrcSmll: "https://res.cloudinary.com/dkbw0dpyp/image/upload/c_scale,w_768/v1730694623/events/halloween-rouge/c6nykhun8dhcyvdpmi1s.jpg",
             imgSrcLrg: "https://res.cloudinary.com/dkbw0dpyp/image/upload/v1730694623/events/halloween-rouge/c6nykhun8dhcyvdpmi1s.jpg",
-            alt: "halloween_yoko_2024",
+            alt: "Halloween @ Rouge Bar",
         },
         {
             imgSrcSmll: "https://res.cloudinary.com/dkbw0dpyp/image/upload/c_scale,w_768/v1730694622/events/halloween-rouge/zd0bmol75rlh1mu0ri2n.jpg",
             imgSrcLrg: "https://res.cloudinary.com/dkbw0dpyp/image/upload/v1730694622/events/halloween-rouge/zd0bmol75rlh1mu0ri2n.jpg",
-            alt: "halloween_yoko_2024",
+            alt: "Halloween @ Rouge Bar",
         },
         {
             imgSrcSmll: "https://res.cloudinary.com/dkbw0dpyp/image/upload/c_scale,w_768/v1730694621/events/halloween-rouge/ufdzxwjtkg5vooigx1we.jpg",
             imgSrcLrg: "https://res.cloudinary.com/dkbw0dpyp/image/upload/v1730694621/events/halloween-rouge/ufdzxwjtkg5vooigx1we.jpg",
-            alt: "halloween_yoko_2024",
+            alt: "Halloween @ Rouge Bar",
         },
         {
             imgSrcSmll: "https://res.cloudinary.com/dkbw0dpyp/image/upload/c_scale,w_768/v1730694620/events/halloween-rouge/hha8w6rzaq4eu8559m9o.jpg",
             imgSrcLrg: "https://res.cloudinary.com/dkbw0dpyp/image/upload/v1730694620/events/halloween-rouge/hha8w6rzaq4eu8559m9o.jpg",
-            alt: "halloween_yoko_2024",
+            alt: "Halloween @ Rouge Bar",
         },
         {
             imgSrcSmll: "https://res.cloudinary.com/dkbw0dpyp/image/upload/c_scale,w_768/v1730694619/events/halloween-rouge/x2geqwpimhuv5on4dgon.jpg",
             imgSrcLrg: "https://res.cloudinary.com/dkbw0dpyp/image/upload/v1730694619/events/halloween-rouge/x2geqwpimhuv5on4dgon.jpg",
-            alt: "halloween_yoko_2024",
+            alt: "Halloween @ Rouge Bar",
         },
         {
             imgSrcSmll: "https://res.cloudinary.com/dkbw0dpyp/image/upload/c_scale,w_768/v1730694619/events/halloween-rouge/tuts4uedvzwgkyfygdma.jpg",
             imgSrcLrg: "https://res.cloudinary.com/dkbw0dpyp/image/upload/v1730694619/events/halloween-rouge/tuts4uedvzwgkyfygdma.jpg",
-            alt: "halloween_yoko_2024",
+            alt: "Halloween @ Rouge Bar",
         },
         {
             imgSrcSmll: "https://res.cloudinary.com/dkbw0dpyp/image/upload/c_scale,w_768/v1730694619/events/halloween-rouge/bvhfiipzbr9afjjeeim9.jpg",
             imgSrcLrg: "https://res.cloudinary.com/dkbw0dpyp/image/upload/v1730694619/events/halloween-rouge/bvhfiipzbr9afjjeeim9.jpg",
-            alt: "halloween_yoko_2024",
+            alt: "Halloween @ Rouge Bar",
         },
         {
             imgSrcSmll: "https://res.cloudinary.com/dkbw0dpyp/image/upload/c_scale,w_768/v1730694619/events/halloween-rouge/en9xijqb7xurrev1ml6k.jpg",
             imgSrcLrg: "https://res.cloudinary.com/dkbw0dpyp/image/upload/v1730694619/events/halloween-rouge/en9xijqb7xurrev1ml6k.jpg",
-            alt: "halloween_yoko_2024",
+            alt: "Halloween @ Rouge Bar",
         },
         {
             imgSrcSmll: "https://res.cloudinary.com/dkbw0dpyp/image/upload/c_scale,w_768/v1730694617/events/halloween-rouge/eqebggah1rsc9e2aygx3.jpg",
             imgSrcLrg: "https://res.cloudinary.com/dkbw0dpyp/image/upload/v1730694617/events/halloween-rouge/eqebggah1rsc9e2aygx3.jpg",
-            alt: "halloween_yoko_2024",
+            alt: "Halloween @ Rouge Bar",
         },
         {
             imgSrcSmll: "https://res.cloudinary.com/dkbw0dpyp/image/upload/c_scale,w_768/v1730694616/events/halloween-rouge/plw5atpmnoqdnt1qssdx.jpg",
             imgSrcLrg: "https://res.cloudinary.com/dkbw0dpyp/image/upload/v1730694616/events/halloween-rouge/plw5atpmnoqdnt1qssdx.jpg",
-            alt: "halloween_yoko_2024",
+            alt: "Halloween @ Rouge Bar",
         },
         {
             imgSrcSmll: "https://res.cloudinary.com/dkbw0dpyp/image/upload/c_scale,w_768/v1730694615/events/halloween-rouge/daevtwcl73c2nrzrcyc0.jpg",
             imgSrcLrg: "https://res.cloudinary.com/dkbw0dpyp/image/upload/v1730694615/events/halloween-rouge/daevtwcl73c2nrzrcyc0.jpg",
-            alt: "halloween_yoko_2024",
+            alt: "Halloween @ Rouge Bar",
         },
         {
             imgSrcSmll: "https://res.cloudinary.com/dkbw0dpyp/image/upload/c_scale,w_768/v1730694615/events/halloween-rouge/aevcgu5gaeh6hpwxgl3y.jpg",
             imgSrcLrg: "https://res.cloudinary.com/dkbw0dpyp/image/upload/v1730694615/events/halloween-rouge/aevcgu5gaeh6hpwxgl3y.jpg",
-            alt: "halloween_yoko_2024",
+            alt: "Halloween @ Rouge Bar",
         },
         {
             imgSrcSmll: "https://res.cloudinary.com/dkbw0dpyp/image/upload/c_scale,w_768/v1730694614/events/halloween-rouge/jw5289ocnldvbyqkvdzj.jpg",
             imgSrcLrg: "https://res.cloudinary.com/dkbw0dpyp/image/upload/v1730694614/events/halloween-rouge/jw5289ocnldvbyqkvdzj.jpg",
-            alt: "halloween_yoko_2024",
+            alt: "Halloween @ Rouge Bar",
         },
         {
             imgSrcSmll: "https://res.cloudinary.com/dkbw0dpyp/image/upload/c_scale,w_768/v1730694614/events/halloween-rouge/elbwqqunamlx3wctbaw1.jpg",
             imgSrcLrg: "https://res.cloudinary.com/dkbw0dpyp/image/upload/v1730694614/events/halloween-rouge/elbwqqunamlx3wctbaw1.jpg",
-            alt: "halloween_yoko_2024",
+            alt: "Halloween @ Rouge Bar",
         },
         {
             imgSrcSmll: "https://res.cloudinary.com/dkbw0dpyp/image/upload/c_scale,w_768/v1730694614/events/halloween-rouge/ej1mqpyurzxkv9r6mut5.jpg",
             imgSrcLrg: "https://res.cloudinary.com/dkbw0dpyp/image/upload/v1730694614/events/halloween-rouge/ej1mqpyurzxkv9r6mut5.jpg",
-            alt: "halloween_yoko_2024",
+            alt: "Halloween @ Rouge Bar",
         },
         {
             imgSrcSmll: "https://res.cloudinary.com/dkbw0dpyp/image/upload/c_scale,w_768/v1730694612/events/halloween-rouge/ythlc7ivmhzlyeninrf1.jpg",
             imgSrcLrg: "https://res.cloudinary.com/dkbw0dpyp/image/upload/v1730694612/events/halloween-rouge/ythlc7ivmhzlyeninrf1.jpg",
-            alt: "halloween_yoko_2024",
+            alt: "Halloween @ Rouge Bar",
         },
         {
             imgSrcSmll: "https://res.cloudinary.com/dkbw0dpyp/image/upload/c_scale,w_768/v1730694611/events/halloween-rouge/kehvii3jkbshetabvap6.jpg",
             imgSrcLrg: "https://res.cloudinary.com/dkbw0dpyp/image/upload/v1730694611/events/halloween-rouge/kehvii3jkbshetabvap6.jpg",
-            alt: "halloween_yoko_2024",
+            alt: "Halloween @ Rouge Bar",
         },
         {
             imgSrcSmll: "https://res.cloudinary.com/dkbw0dpyp/image/upload/c_scale,w_768/v1730694610/events/halloween-rouge/mcwyibpkk28z4yra9ytn.jpg",
             imgSrcLrg: "https://res.cloudinary.com/dkbw0dpyp/image/upload/v1730694610/events/halloween-rouge/mcwyibpkk28z4yra9ytn.jpg",
-            alt: "halloween_yoko_2024",
+            alt: "Halloween @ Rouge Bar",
         },
         {
             imgSrcSmll: "https://res.cloudinary.com/dkbw0dpyp/image/upload/c_scale,w_768/v1730694610/events/halloween-rouge/cuzmfxfwxllt4thlpg6s.jpg",
             imgSrcLrg: "https://res.cloudinary.com/dkbw0dpyp/image/upload/v1730694610/events/halloween-rouge/cuzmfxfwxllt4thlpg6s.jpg",
-            alt: "halloween_yoko_2024",
+            alt: "Halloween @ Rouge Bar",
         },
         {
             imgSrcSmll: "https://res.cloudinary.com/dkbw0dpyp/image/upload/c_scale,w_768/v1730694609/events/halloween-rouge/scuqvsn8ileeiso5whpc.jpg",
             imgSrcLrg: "https://res.cloudinary.com/dkbw0dpyp/image/upload/v1730694609/events/halloween-rouge/scuqvsn8ileeiso5whpc.jpg",
-            alt: "halloween_yoko_2024",
+            alt: "Halloween @ Rouge Bar",
         },
         {
             imgSrcSmll: "https://res.cloudinary.com/dkbw0dpyp/image/upload/c_scale,w_768/v1730694608/events/halloween-rouge/scgxuvrjdewic2lyke9p.jpg",
             imgSrcLrg: "https://res.cloudinary.com/dkbw0dpyp/image/upload/v1730694608/events/halloween-rouge/scgxuvrjdewic2lyke9p.jpg",
-            alt: "halloween_yoko_2024",
+            alt: "Halloween @ Rouge Bar",
         },
         {
             imgSrcSmll: "https://res.cloudinary.com/dkbw0dpyp/image/upload/c_scale,w_768/v1730694608/events/halloween-rouge/teuvz0rlq42qaz25tqen.jpg",
             imgSrcLrg: "https://res.cloudinary.com/dkbw0dpyp/image/upload/v1730694608/events/halloween-rouge/teuvz0rlq42qaz25tqen.jpg",
-            alt: "halloween_yoko_2024",
+            alt: "Halloween @ Rouge Bar",
         },
         {
             imgSrcSmll: "https://res.cloudinary.com/dkbw0dpyp/image/upload/c_scale,w_768/v1730694607/events/halloween-rouge/k5tpm2kbvo2s6oesj5fx.jpg",
             imgSrcLrg: "https://res.cloudinary.com/dkbw0dpyp/image/upload/v1730694607/events/halloween-rouge/k5tpm2kbvo2s6oesj5fx.jpg",
-            alt: "halloween_yoko_2024",
+            alt: "Halloween @ Rouge Bar",
         },
         {
             imgSrcSmll: "https://res.cloudinary.com/dkbw0dpyp/image/upload/c_scale,w_768/v1730694606/events/halloween-rouge/ntvodk1voxt4ucsg3ngb.jpg",
             imgSrcLrg: "https://res.cloudinary.com/dkbw0dpyp/image/upload/v1730694606/events/halloween-rouge/ntvodk1voxt4ucsg3ngb.jpg",
-            alt: "halloween_yoko_2024",
+            alt: "Halloween @ Rouge Bar",
         },
         {
             imgSrcSmll: "https://res.cloudinary.com/dkbw0dpyp/image/upload/c_scale,w_768/v1730694605/events/halloween-rouge/sgizuurqvzfxn0uvfei8.jpg",
             imgSrcLrg: "https://res.cloudinary.com/dkbw0dpyp/image/upload/v1730694605/events/halloween-rouge/sgizuurqvzfxn0uvfei8.jpg",
-            alt: "halloween_yoko_2024",
+            alt: "Halloween @ Rouge Bar",
         },
         {
             imgSrcSmll: "https://res.cloudinary.com/dkbw0dpyp/image/upload/c_scale,w_768/v1730694605/events/halloween-rouge/cy5vsazj7v1jzdktxptn.jpg",
             imgSrcLrg: "https://res.cloudinary.com/dkbw0dpyp/image/upload/v1730694605/events/halloween-rouge/cy5vsazj7v1jzdktxptn.jpg",
-            alt: "halloween_yoko_2024",
+            alt: "Halloween @ Rouge Bar",
         },
         {
             imgSrcSmll: "https://res.cloudinary.com/dkbw0dpyp/image/upload/c_scale,w_768/v1730694604/events/halloween-rouge/kobgh5e58mvqay9jvkq1.jpg",
             imgSrcLrg: "https://res.cloudinary.com/dkbw0dpyp/image/upload/v1730694604/events/halloween-rouge/kobgh5e58mvqay9jvkq1.jpg",
-            alt: "halloween_yoko_2024",
+            alt: "Halloween @ Rouge Bar",
         },
         {
             imgSrcSmll: "https://res.cloudinary.com/dkbw0dpyp/image/upload/c_scale,w_768/v1730694604/events/halloween-rouge/qvsmyujlqqvedvy5imnj.jpg",
             imgSrcLrg: "https://res.cloudinary.com/dkbw0dpyp/image/upload/v1730694604/events/halloween-rouge/qvsmyujlqqvedvy5imnj.jpg",
-            alt: "halloween_yoko_2024",
+            alt: "Halloween @ Rouge Bar",
         },
         {
             imgSrcSmll: "https://res.cloudinary.com/dkbw0dpyp/image/upload/c_scale,w_768/v1730694602/events/halloween-rouge/ciokc9ymm6t8dbhynhuh.jpg",
@@ -286,7 +291,7 @@ const App = () => {
     ];
   
     return (
-        <ImageGrid items={images} />
+        <ImageGrid items={images} coverImage = {coverImage} albumTitle={albumTitle} albumDate={albumDate}/>
     );
   };
   

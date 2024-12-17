@@ -2,6 +2,11 @@ import React from "react";
 import ImageGrid from "../../ImageGrid";
 
 const App = () => {
+    const albumTitle = "Demi Marathon de Lachine 2024"
+    const albumDate = "October 2024"
+    const coverImage = {
+        src: "https://res.cloudinary.com/dkbw0dpyp/image/upload/v1728657691/sports/demiLachine2024/biudyberdonphkfzygkx.jpg",
+        alt: "Demi Marathon de Lachine 2024"}
     const images = [
         {
             imgSrcSmll: "https://res.cloudinary.com/dkbw0dpyp/image/upload/c_scale,w_768/v1728657651/sports/demiLachine2024/zghgqziawnter9hk9yai.jpg",
@@ -271,7 +276,7 @@ const App = () => {
     ];
   
     return (
-        <ImageGrid items={images} />
+        <ImageGrid items={images} coverImage = {coverImage} albumTitle={albumTitle} albumDate={albumDate}/>
     );
   };
   

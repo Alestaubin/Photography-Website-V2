@@ -2,6 +2,11 @@ import React from "react";
 import ImageGrid from "../../ImageGrid";
 
 const App = () => {
+    const albumTitle = "PERT Board Meeting"
+    const albumDate = "October 2024"
+    const coverImage = {
+        src: "https://res.cloudinary.com/dkbw0dpyp/image/upload/v1730692917/events/PERT-board/hhbwtqzhxc3eeizague0.jpg",
+        alt: "PERT Board Meeting"}
     const images = [
         {
             imgSrcSmll: "https://res.cloudinary.com/dkbw0dpyp/image/upload/c_scale,w_768/v1730692957/events/PERT-board/fac9wsahzctcue5rolf4.jpg",
@@ -111,7 +116,7 @@ const App = () => {
     ];
   
     return (
-        <ImageGrid items={images} />
+        <ImageGrid items={images} coverImage = {coverImage} albumTitle={albumTitle} albumDate={albumDate}/>
     );
   };
   

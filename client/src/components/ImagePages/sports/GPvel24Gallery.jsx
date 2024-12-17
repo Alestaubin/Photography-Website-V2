@@ -2,6 +2,11 @@ import React from "react";
 import ImageGrid from "../../ImageGrid";
 
 const App = () => {
+    const albumTitle = "Grand Prix Vélocité"
+    const albumDate = "July 2024"
+    const coverImage = {
+        src: "https://res.cloudinary.com/dkbw0dpyp/image/upload/v1721926431/sports/GPVEL2024/bhx27q7qpufzq4aprhj0.jpg",
+        alt: "Grand Prix Vélocité"}
     const images = [
         {
             imgSrcSmll: "https://res.cloudinary.com/dkbw0dpyp/image/upload/v1721926395/sports/GPVEL2024/ztw1ptnvez5aafw1mcuz.jpg",
@@ -101,7 +106,7 @@ const App = () => {
     ];
   
     return (
-        <ImageGrid items={images} />
+        <ImageGrid items={images} coverImage = {coverImage} albumTitle={albumTitle} albumDate={albumDate}/>
     );
   };
   
