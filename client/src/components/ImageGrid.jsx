@@ -70,7 +70,7 @@ function ImageGrid({ items, coverImage, albumTitle, albumDate }) {
         {items.map((item, index) => (
           <div className="image-grid-item" key={index}>
             <ModalImage
-              small={item.imgSrcLrg.replace("upload", `upload/c_scale,w_${columnWidth}`)}
+              small={item.imgSrcLrg.replace("upload", `upload/c_scale,w_${1.5*columnWidth}`)}
               large={item.imgSrcLrg}
               hideZoom={false}
               hideDownload={true}
