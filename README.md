@@ -13,6 +13,6 @@ This project contains the code for my photography website, which can be found [h
 1. Upload the photos to cloudinary. 
 2. Run the script to fetch the urls and create the `ImagePage` jsx file. 
 ```bash
-python utils/fetch_urls.py --folder_name "events/UDES-med" --output_file "client/src/components/ImagePages/events/UDES_med_24.jsx" --label "UDES Med - Cérémonie de Consécration" --cover_index 11```
+python utils/fetch_urls.py --folder_name "events/SSMU-GGG" --output_file "client/src/components/ImagePages/events/SSMU_GGG.jsx" --label "SSMU Great Gatsby Gala" --cover_index 1 --date "December 2024"
 ```
 3. All updates to the `jsx` files will be made automatically and the album will be added.
