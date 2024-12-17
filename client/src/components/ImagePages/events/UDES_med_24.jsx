@@ -2,6 +2,13 @@ import React from "react";
 import ImageGrid from "../../ImageGrid";
 
 const App = () => {
+    const coverImage = {
+        src: "https://res.cloudinary.com/dkbw0dpyp/image/upload/v1734030134/events/UDES-med/xkcljoiguxjil1uv7zqu.jpg",
+        alt: "UDES Med - Cérémonie de Consécration"
+        }
+    const albumTitle = "UDES Med - Cérémonie de Consécration"
+    const albumDate = "November 2024"
+    
     const images = [
         {
             imgSrcSmll: "https://res.cloudinary.com/dkbw0dpyp/image/upload/c_scale,w_768/v1734030139/events/UDES-med/kgjiamedjjszkd9ulgda.jpg",
@@ -141,7 +148,7 @@ const App = () => {
     ];
   
     return (
-        <ImageGrid items={images} />
+        <ImageGrid items={images} coverImage = {coverImage} albumTitle={albumTitle} albumDate={albumDate}/>
     );
   };
   

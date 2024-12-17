@@ -39,6 +39,7 @@ import {
   Halloween_rouge_2024,
   PERTMENTLAUNCH,
   UDES_MED_24,
+  SSMU_GGG,
 } from "./components";
 
 ReactDOM.render(
@@ -47,6 +48,7 @@ ReactDOM.render(
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/Events" element={<Events />} />
+      <Route path="/SSMU_GGG" element={<SSMU_GGG/>} />
       <Route path="/UDES_MED_24" element={<UDES_MED_24/>} />
       <Route path="/PERTMENTLAUNCH" element={<PERTMENTLAUNCH/>} />
         <Route path="/Halloween_rouge_2024" element={<Halloween_rouge_2024/>} />

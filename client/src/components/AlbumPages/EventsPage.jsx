@@ -2,8 +2,13 @@ import React from "react";
 import AlbumGrid from "../AlbumGrid";
 
 const albumsData = [
-
-  {
+{
+    link: "/SSMU_GGG",
+    imgSrc: "https://res.cloudinary.com/dkbw0dpyp/image/upload/c_scale,w_768/v1734397789/events/SSMU-GGG/lfetdm9riefsd9wg8fxa.jpg",
+    alt: "SSMU_Great_Gatsby_Gala",
+    label: "SSMU Great Gatsby Gala",
+  },
+{
     link: "/UDES_MED_24",
     imgSrc: "https://res.cloudinary.com/dkbw0dpyp/image/upload/c_scale,w_768/v1734030134/events/UDES-med/xkcljoiguxjil1uv7zqu.jpg",
     alt: "UDES_Med_-_Cérémonie_de_Consécration",

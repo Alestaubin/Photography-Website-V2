@@ -49,12 +49,18 @@ def save_urls_to_csv(photo_urls, output_file):
 
 import os
 
-def create_jsx_file(urls_small, urls_large, path, alt):
+def create_jsx_file(urls_small, urls_large, path, alt, album_title, album_date, cover_idx):
     # Start of the JSX content
-    jsx_content = '''import React from "react";
+    jsx_content = f'''import React from "react";
 import ImageGrid from "../../ImageGrid";
 
-const App = () => {
+const App = () => {{
+    const coverImage = {{
+    src: "{urls_large[cover_idx]}",
+    alt: "{album_title}"
+    }}
+    const albumTitle = "{album_title}"
+    const albumDate = "{album_date}"
     const images = ['''
     
     # Dynamically add the image objects based on the URLs list
@@ -71,7 +77,7 @@ const App = () => {
     ];
   
     return (
-        <ImageGrid items={images} />
+        <ImageGrid items={images} coverImage = {coverImage} albumTitle={albumTitle} albumDate={albumDate}/>
     );
   };
   
@@ -238,14 +244,16 @@ if __name__ == "__main__":
     parser.add_argument("--output_file", type=str, help="Output JSX file")
     parser.add_argument("--reverse", action="store_true", help="Reverse the order of the URLs")
     parser.add_argument("--cover_index", type=int, default=0, help="Index of the album cover image." )
-    parser.add_argument("--label", type=str, help="Title to appear on the album thumbnail.")
+    parser.add_argument("--label", type=str, required=True, help="Title to appear on the album thumbnail.")
+    parser.add_argument("--date", type=str, required=True, help="Date of the event.")
     args = parser.parse_args()
 
     folder_name = args.folder_name
     output_file = args.output_file
     cover_index_image = args.cover_index
-    label=args.label
+    label = args.label
     alt = label.replace(" ", "_")
+    date = args.date
 
     # get the path of the album page (where the thumbnail will appear)
     albumGroup = get_innermost_folder(output_file)
@@ -255,7 +263,7 @@ if __name__ == "__main__":
     photo_urls_large, photo_urls_small = list_photos_in_folder(folder_name=folder_name, reverse=args.reverse)
 
     # write the photo album to the .jsx file
-    create_jsx_file(urls_small=photo_urls_small, urls_large=photo_urls_large,path=output_file, alt=alt)
+    create_jsx_file(urls_small=photo_urls_small, urls_large=photo_urls_large, path=output_file, alt=alt, album_title=label, album_date=date, cover_idx=cover_index_image)
 
     filename_with_extension = os.path.basename(output_file)
     # Split the filename and extension
