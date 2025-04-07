@@ -41,6 +41,7 @@ import {
   PERTMENTLAUNCH,
   UDES_MED_24,
   SSMU_GGG,
+  PERT2025,
 } from "./components";
 
 ReactDOM.render(
@@ -49,6 +50,7 @@ ReactDOM.render(
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/Events" element={<Events />} />
+      <Route path="/PERT2025" element={<PERT2025/>} />
       <Route path="/SSMU_GGG" element={<SSMU_GGG/>} />
       <Route path="/UDES_MED_24" element={<UDES_MED_24/>} />
       <Route path="/PERTMENTLAUNCH" element={<PERTMENTLAUNCH/>} />

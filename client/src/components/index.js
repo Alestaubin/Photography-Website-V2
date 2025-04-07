@@ -40,3 +40,4 @@ export { default as Norge } from "./ImagePages/personal/NorgeGallery";
 export { default as PERTMENTLAUNCH } from "./ImagePages/events/pertMentLaunch.jsx";
 export { default as UDES_MED_24 } from "./ImagePages/events/UDES_med_24.jsx";
 export { default as SSMU_GGG } from "./ImagePages/events/SSMU_GGG.jsx";
+export { default as PERT2025 } from "./ImagePages/events/PERT2025.jsx";

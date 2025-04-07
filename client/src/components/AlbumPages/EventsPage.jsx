@@ -2,6 +2,13 @@ import React from "react";
 import AlbumGrid from "../AlbumGrid";
 
 const albumsData = [
+
+  {
+    link: "/PERT2025",
+    imgSrc: "https://res.cloudinary.com/dkbw0dpyp/image/upload/c_scale,w_768/v1744054769/events/PERT-2025/jlp2s649cxlbrznf8f4i.jpg",
+    alt: "PERT_Corporate_Event",
+    label: "PERT Corporate Event",
+  },
 {
     link: "/SSMU_GGG",
     imgSrc: "https://res.cloudinary.com/dkbw0dpyp/image/upload/c_scale,w_768/v1734397789/events/SSMU-GGG/lfetdm9riefsd9wg8fxa.jpg",
