@@ -4,6 +4,12 @@ import AlbumGrid from "../AlbumGrid";
 const albumsData = [
 
   {
+    link: "/FESTIVER",
+    imgSrc: "https://res.cloudinary.com/dkbw0dpyp/image/upload/c_scale,w_768/v1744055140/events/Festiver/ze29ueemzbeblsflrgu4.jpg",
+    alt: "UQAM_AÉESG_-_Festiver",
+    label: "UQAM AÉESG - Festiver",
+  },
+{
     link: "/PERT2025",
     imgSrc: "https://res.cloudinary.com/dkbw0dpyp/image/upload/c_scale,w_768/v1744054769/events/PERT-2025/jlp2s649cxlbrznf8f4i.jpg",
     alt: "PERT_Corporate_Event",
