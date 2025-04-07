@@ -43,4 +43,3 @@ export { default as SSMU_GGG } from "./ImagePages/events/SSMU_GGG.jsx";
 export { default as PERT2025 } from "./ImagePages/events/PERT2025.jsx";
 export { default as FESTIVER } from "./ImagePages/events/Festiver.jsx";
 export { default as ESG_HOMMAGE } from "./ImagePages/events/ESG_Hommage.jsx";
-export { default as ESG_HOMMAGE } from "./ImagePages/events/ESG_Hommage.jsx";
