@@ -5,13 +5,13 @@ const albumsData = [
 
   {
     link: "/FESTIVER",
-    imgSrc: "https://res.cloudinary.com/dkbw0dpyp/image/upload/c_scale,w_768/v1744055140/events/Festiver/ze29ueemzbeblsflrgu4.jpg",
+    imgSrc: "https://res.cloudinary.com/dkbw0dpyp/image/upload/v1744055105/events/Festiver/a8hssh34id1rd6eohj4t.jpg",
     alt: "UQAM_AÉESG_-_Festiver",
     label: "UQAM AÉESG - Festiver",
   },
 {
     link: "/PERT2025",
-    imgSrc: "https://res.cloudinary.com/dkbw0dpyp/image/upload/c_scale,w_768/v1744054769/events/PERT-2025/jlp2s649cxlbrznf8f4i.jpg",
+    imgSrc: "https://res.cloudinary.com/dkbw0dpyp/image/upload/v1744054764/events/PERT-2025/fmgo0poekng4odoubfbi.jpg",
     alt: "PERT_Corporate_Event",
     label: "PERT Corporate Event",
   },
