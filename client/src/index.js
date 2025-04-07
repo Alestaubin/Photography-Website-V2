@@ -44,6 +44,7 @@ import {
   PERT2025,
   FESTIVER,
   ESG_HOMMAGE,
+  ESG_HOMMAGE,
 } from "./components";
 
 ReactDOM.render(
@@ -52,6 +53,7 @@ ReactDOM.render(
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/Events" element={<Events />} />
+      <Route path="/ESG_HOMMAGE" element={<ESG_HOMMAGE/>} />
       <Route path="/ESG_HOMMAGE" element={<ESG_HOMMAGE/>} />
       <Route path="/FESTIVER" element={<FESTIVER/>} />
       <Route path="/PERT2025" element={<PERT2025/>} />

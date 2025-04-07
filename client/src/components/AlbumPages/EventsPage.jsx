@@ -5,6 +5,12 @@ const albumsData = [
 
   {
     link: "/ESG_HOMMAGE",
+    imgSrc: "https://res.cloudinary.com/dkbw0dpyp/image/upload/c_scale,w_768/v1744066465/events/AEESG-hommage/z1wow5tpuonqvqjv4hym.jpg",
+    alt: "UQAM_AÉESG_-_Gala_Hommage",
+    label: "UQAM AÉESG - Gala Hommage",
+  },
+{
+    link: "/ESG_HOMMAGE",
     imgSrc: "https://res.cloudinary.com/dkbw0dpyp/image/upload/c_scale,w_768/v1744066464/events/AEESG-hommage/f2l5iqtwdr7npattihaf.jpg",
     alt: "UQAM_AÉESG_-_Gala_Hommage",
     label: "UQAM AÉESG - Gala Hommage",

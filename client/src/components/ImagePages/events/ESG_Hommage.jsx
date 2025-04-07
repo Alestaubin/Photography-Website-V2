@@ -3,7 +3,7 @@ import ImageGrid from "../../ImageGrid";
 
 const App = () => {
     const coverImage = {
-    src: "https://res.cloudinary.com/dkbw0dpyp/image/upload/v1744066464/events/AEESG-hommage/f2l5iqtwdr7npattihaf.jpg",
+    src: "https://res.cloudinary.com/dkbw0dpyp/image/upload/v1744066465/events/AEESG-hommage/z1wow5tpuonqvqjv4hym.jpg",
     alt: "UQAM AÉESG - Gala Hommage"
     }
     const albumTitle = "UQAM AÉESG - Gala Hommage"
