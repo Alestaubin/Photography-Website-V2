@@ -3,7 +3,7 @@ import ImageGrid from "../../ImageGrid";
 
 const App = () => {
     const coverImage = {
-    src: "https://res.cloudinary.com/dkbw0dpyp/image/upload/v1744054769/events/PERT-2025/jlp2s649cxlbrznf8f4i.jpg",
+    src: "https://res.cloudinary.com/dkbw0dpyp/image/upload/v1744054764/events/PERT-2025/fmgo0poekng4odoubfbi.jpg",
     alt: "PERT Corporate Event"
     }
     const albumTitle = "PERT Corporate Event"
