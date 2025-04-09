@@ -45,6 +45,10 @@ import {
   FESTIVER,
   ESG_HOMMAGE,
   ECA_JONC,
+  AEEMUM,
+  AEEMSG,
+  CASA_NEWORKING,
+  AE2CF_NETWORKING,
 } from "./components";
 
 ReactDOM.render(
@@ -53,6 +57,10 @@ ReactDOM.render(
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/Events" element={<Events />} />
+      <Route path="/AE2CF_NETWORKING" element={<AE2CF_NETWORKING/>} />
+      <Route path="/CASA_NEWORKING" element={<CASA_NEWORKING/>} />
+      <Route path="/AEEMSG" element={<AEEMSG/>} />
+      <Route path="/AEEMUM" element={<AEEMUM/>} />
       <Route path="/ECA_JONC" element={<ECA_JONC/>} />
       <Route path="/ESG_HOMMAGE" element={<ESG_HOMMAGE/>} />
       <Route path="/FESTIVER" element={<FESTIVER/>} />

@@ -2,30 +2,53 @@ import React from "react";
 import AlbumGrid from "../AlbumGrid";
 
 const albumsData = [
-
   {
-    link: "/ECA_JONC",
-    imgSrc: "https://res.cloudinary.com/dkbw0dpyp/image/upload/c_scale,w_768/v1744160609/events/ECA-Jonc/wokmvm1ocg4iofiwvns2.jpg",
-    alt: "Concordia_ECA_Cérémonie_Jonc",
-    label: "Concordia ECA Cérémonie Jonc",
-  },
-{
     link: "/ESG_HOMMAGE",
     imgSrc: "https://res.cloudinary.com/dkbw0dpyp/image/upload/c_scale,w_768/v1744066465/events/AEESG-hommage/z1wow5tpuonqvqjv4hym.jpg",
     alt: "UQAM_AÉESG_-_Gala_Hommage",
     label: "UQAM AÉESG - Gala Hommage",
   },
 {
-    link: "/FESTIVER",
-    imgSrc: "https://res.cloudinary.com/dkbw0dpyp/image/upload/v1744055105/events/Festiver/a8hssh34id1rd6eohj4t.jpg",
-    alt: "UQAM_AÉESG_-_Festiver",
-    label: "UQAM AÉESG - Festiver",
+    link: "/ECA_JONC",
+    imgSrc: "https://res.cloudinary.com/dkbw0dpyp/image/upload/c_scale,w_768/v1744160609/events/ECA-Jonc/wokmvm1ocg4iofiwvns2.jpg",
+    alt: "Concordia_ECA_Cérémonie_Jonc",
+    label: "Concordia ECA Cérémonie Jonc",
   },
-{
+  {
     link: "/PERT2025",
     imgSrc: "https://res.cloudinary.com/dkbw0dpyp/image/upload/v1744054764/events/PERT-2025/fmgo0poekng4odoubfbi.jpg",
     alt: "PERT_Corporate_Event",
     label: "PERT Corporate Event",
+  },
+  {
+    link: "/AE2CF_NETWORKING",
+    imgSrc: "https://res.cloudinary.com/dkbw0dpyp/image/upload/c_scale,w_768/v1744162261/events/AE2CF/szpxzfeovsoufmjlc0yf.jpg",
+    alt: "UQAM_Aé2CF_Soirée_Résautage",
+    label: "UQAM Aé2CF Soirée Résautage",
+  },
+{
+    link: "/CASA_NEWORKING",
+    imgSrc: "https://res.cloudinary.com/dkbw0dpyp/image/upload/c_scale,w_768/v1744162224/events/CASA/biwutxrgygerzvsiuqqr.jpg",
+    alt: "Concordia_CASA_Networking_Event",
+    label: "Concordia CASA Networking Event",
+  },
+{
+    link: "/AEEMSG",
+    imgSrc: "https://res.cloudinary.com/dkbw0dpyp/image/upload/c_scale,w_768/v1744161825/events/AEMSG/tiw4ednwovaxka89upqu.jpg",
+    alt: "UQAM_AéMSG_Networking_Event",
+    label: "UQAM AéMSG Networking Event",
+  },
+{
+    link: "/AEEMUM",
+    imgSrc: "https://res.cloudinary.com/dkbw0dpyp/image/upload/c_scale,w_768/v1744161787/events/AEEMUM/nb9xeknjq4mhu9dxu896.jpg",
+    alt: "UDEM_AEEMUM_Vin_et_Fromage",
+    label: "UDEM AEEMUM Vin et Fromage",
+  },
+{
+    link: "/FESTIVER",
+    imgSrc: "https://res.cloudinary.com/dkbw0dpyp/image/upload/v1744055105/events/Festiver/a8hssh34id1rd6eohj4t.jpg",
+    alt: "UQAM_AÉESG_-_Festiver",
+    label: "UQAM AÉESG - Festiver",
   },
 {
     link: "/SSMU_GGG",

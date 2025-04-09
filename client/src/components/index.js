@@ -44,3 +44,7 @@ export { default as PERT2025 } from "./ImagePages/events/PERT2025.jsx";
 export { default as FESTIVER } from "./ImagePages/events/Festiver.jsx";
 export { default as ESG_HOMMAGE } from "./ImagePages/events/ESG_Hommage.jsx";
 export { default as ECA_JONC } from "./ImagePages/events/ECA_Jonc.jsx";
+export { default as AEEMUM } from "./ImagePages/events/AEEMUM.jsx";
+export { default as AEEMSG } from "./ImagePages/events/AEEMSG.jsx";
+export { default as CASA_NEWORKING } from "./ImagePages/events/CASA_Neworking.jsx";
+export { default as AE2CF_NETWORKING } from "./ImagePages/events/AE2CF_Networking.jsx";
