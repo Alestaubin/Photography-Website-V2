@@ -4,6 +4,12 @@ import AlbumGrid from "../AlbumGrid";
 const albumsData = [
 
   {
+    link: "/ECA_JONC",
+    imgSrc: "https://res.cloudinary.com/dkbw0dpyp/image/upload/c_scale,w_768/v1744160609/events/ECA-Jonc/wokmvm1ocg4iofiwvns2.jpg",
+    alt: "Concordia_ECA_Cérémonie_Jonc",
+    label: "Concordia ECA Cérémonie Jonc",
+  },
+{
     link: "/ESG_HOMMAGE",
     imgSrc: "https://res.cloudinary.com/dkbw0dpyp/image/upload/c_scale,w_768/v1744066465/events/AEESG-hommage/z1wow5tpuonqvqjv4hym.jpg",
     alt: "UQAM_AÉESG_-_Gala_Hommage",
