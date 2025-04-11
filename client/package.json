@@ -12,7 +12,7 @@
     "masonry-layout": "^4.2.2",
     "react": "^16.14.0",
     "react-dom": "^16.14.0",
-    "react-intersection-observer": "^9.16.0",
+    "react-intersection-observer": "^8.32.5",
     "react-modal-image": "^2.6.0",
     "react-router-dom": "^6.30.0",
     "react-scripts": "^5.0.1",
