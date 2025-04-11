@@ -16,3 +16,15 @@ This project contains the code for my photography website, which can be found [h
 python utils/fetch_urls.py --folder_name "events/SSMU-GGG" --output_file "client/src/components/ImagePages/events/SSMU_GGG.jsx" --label "SSMU Great Gatsby Gala" --cover_index 1 --date "December 2024"
 ```
 3. All updates to the `jsx` files will be made automatically and the album will be added.
+
+## Local host
+To the client folder and run: 
+```
+npm start
+```
+If the above doesn't work, run:
+```
+rm -rf node_modules package-lock.json
+npm install --legacy-peer-deps
+npm start
+```
