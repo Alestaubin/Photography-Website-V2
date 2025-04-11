@@ -10,24 +10,32 @@
     display: block;
     clear: both;
 }
-
+#image_display {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
 /* ---- .grid-item ---- */
 .image-grid-sizer,
 .image-grid-item{
   /* 3 columns by default */
   width: 33.333%;
+  padding: 5px; /* Add padding around each grid item */
 }
 /* make the image slightly larger than the image-grid */
 .image-grid-item img{
     height: auto;
     display: block;
+    background: #fff; /* White background */
 }
+
+
   
 @media screen and (max-width: 1500px) {
     /* 1 column */
     .image-grid-sizer,
     .image-grid-item{
         width: 50%;
+        padding: 5px; /* Maintain padding at different breakpoints */
     }
 }
 
@@ -36,6 +44,7 @@
     .image-grid-sizer,
     .image-grid-item{
         width: 100%;
+        padding: 5px; /* Maintain padding at different breakpoints */
     }
 }
 .image-grid-item{
@@ -43,6 +52,7 @@
     max-width: 100%;
     float: left;
     position: static;
+    background: #fff; /* White background */
 }
 
 html, body {

@@ -17,16 +17,12 @@
 }
 .image-container img {
     width: 100%;
-    -webkit-filter: brightness(100%);
+    -webkit-filter: brightness(70%);
+    transition: -webkit-filter 0.3s ease;
 }
 
 .image-container img:hover {
-    -webkit-filter: brightness(70%);
-    -webkit-transition: all 1s ease;
-    -moz-transition: all 1s ease;
-    -o-transition: all 1s ease;
-    -ms-transition: all 1s ease;
-    transition: all 1s ease;
+    -webkit-filter: brightness(100%);
 }
 
 .image-container {
@@ -40,15 +36,10 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    opacity: 0;
-    transition: opacity 0.3s ease;
+    opacity: 1;
     font-size: xx-large;
     color: white;
     pointer-events: none; /* This is important to make the label on the image clickable */
-}
-
-.image-container:hover .image-label {
-    opacity: 1;
 }
 
 .col {
@@ -117,10 +108,6 @@
 
 @media (hover: none) {
     .image-label {
-        opacity: 1;
         font-size: small;
-    }
-    .image-container img {
-        -webkit-filter: brightness(70%);
     }
 }
