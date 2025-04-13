@@ -4,7 +4,7 @@ function Footer() {
   return (
     <div className="footer">
       <footer className="d-flex flex-wrap justify-content-between align-items-center mx-5 px-5 fixed-bottom">
-        <p className="col-md-4 mb-0 text-body-secondary">&copy; 2024 Alexandre St-Aubin</p>
+        <p className="col-md-4 mb-0 text-body-secondary">&copy; 2025 Alexandre St-Aubin</p>
         <ul className="nav col-md-4 justify-content-end align-items-center">
           <li className="nav-item d-flex align-items-center">
             <a href="https://alexandrest-aubinphoto.pixieset.com" className="nav-link px-2 text-body-secondary">
