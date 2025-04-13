@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
-import { Analytics } from "@vercel/analytics/react"
+//import { Analytics } from "@vercel/analytics/react"
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import {
   Navigation,
