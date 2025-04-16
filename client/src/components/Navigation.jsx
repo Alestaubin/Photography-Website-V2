@@ -42,7 +42,7 @@ function Navigation() {
               </li>
               <li className="nav-item">
                 <NavLink className="nav-link fs-5" to="/contact">
-                  Contact
+                  About
                 </NavLink>
               </li>
             </ul>

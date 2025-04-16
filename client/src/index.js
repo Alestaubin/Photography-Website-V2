@@ -6,6 +6,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import {
   Navigation,
   Footer,
+  About,
   Home,
   Events,
   Contact,
@@ -93,7 +94,7 @@ ReactDOM.render(
         <Route path="/Hec5" element={<Hec5 />} />
         <Route path="/Hec24" element={<Hec24 />} />
         <Route path="/VitreEtudiant" element={<VitreEtudiant />} />
-      <Route path="/contact" element={<Contact />} />
+      <Route path="/contact" element={<About />} />
     </Routes>
     <Footer />
   </Router>,
