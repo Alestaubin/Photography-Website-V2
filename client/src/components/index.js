@@ -49,3 +49,4 @@ export { default as AEEMUM } from "./ImagePages/events/AEEMUM.jsx";
 export { default as AEEMSG } from "./ImagePages/events/AEEMSG.jsx";
 export { default as CASA_NEWORKING } from "./ImagePages/events/CASA_Neworking.jsx";
 export { default as AE2CF_NETWORKING } from "./ImagePages/events/AE2CF_Networking.jsx";
+export { default as PALAZO } from "./ImagePages/events/palazo.jsx";

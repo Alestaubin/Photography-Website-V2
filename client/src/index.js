@@ -48,6 +48,7 @@ import {
   AEEMSG,
   CASA_NEWORKING,
   AE2CF_NETWORKING,
+  PALAZO,
 } from "./components";
 
 ReactDOM.render(
@@ -56,6 +57,7 @@ ReactDOM.render(
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/Events" element={<Events />} />
+      <Route path="/PALAZO" element={<PALAZO/>} />
       <Route path="/AE2CF_NETWORKING" element={<AE2CF_NETWORKING/>} />
       <Route path="/CASA_NEWORKING" element={<CASA_NEWORKING/>} />
       <Route path="/AEEMSG" element={<AEEMSG/>} />
