@@ -5,7 +5,7 @@ const albumsData = [
 
   {
     link: "/PALAZO",
-    imgSrc: "https://res.cloudinary.com/dkbw0dpyp/image/upload/c_scale,w_768/v1750445481/Palazo-250613-0149-2_dadaua.jpg",
+    imgSrc: "https://res.cloudinary.com/dkbw0dpyp/image/upload/v1750445432/Palazo-250613-0102-1821_q9bg0x.jpg",
     alt: "F1_Weekend_at_Palazo",
     label: "F1 Weekend at Palazo",
   },
