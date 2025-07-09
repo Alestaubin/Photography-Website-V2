@@ -21,7 +21,7 @@ const App = () => {
       <Article
         scrollLeft={scrollLeft}
         key={i}
-        src={img.src.replace("upload", `upload/c_scale,w_768`)}
+        src={img.src.replace("upload", `upload/c_scale,w_1024`)}
         title={img.title}
         description={img.description}
       />

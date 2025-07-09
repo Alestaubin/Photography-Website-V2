@@ -1,7 +1,7 @@
 body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-family:'Montserrat', sans-serif;
+  font-family:'Helvetica','Montserrat', sans-serif;
   overflow-y: hidden;
   background-color: white;
 }
