@@ -13,31 +13,39 @@ cloudinary.config(
 )
 
 def list_photos_in_folder(folder_name, reverse=False):
-    """List all photo URLs in a specified Cloudinary folder."""
     photos = []
     photos_small = []
+    descriptions = []
     next_cursor = None
     
     while True:
         response = cloudinary.api.resources_by_asset_folder(
             folder_name, 
             max_results=500,
-            next_cursor=next_cursor)
-
+            next_cursor=next_cursor
+        )
 
         for resource in response.get('resources', []):
-            photos.append(resource['secure_url'])
-            print("secure_url", resource['secure_url'])
-            photos_small.append(resource['secure_url'].replace("upload/", "upload/c_scale,w_768/"))
+            url_large = resource['secure_url']
+            url_small = url_large.replace("upload/", "upload/c_scale,w_768/")
+            photos.append(url_large)
+            photos_small.append(url_small)
+
+            # Try to fetch description from metadata (Cloudinary "context")
+            context = resource.get('context', {})
+            description = context.get('custom', {}).get('alt') or ""  # Default to empty string if not found
+            descriptions.append(description)
 
         next_cursor = response.get('next_cursor')
-        print("next_cursor", next_cursor)   
         if not next_cursor:
             break
+
     if reverse:
         photos.reverse()
         photos_small.reverse()
-    return photos, photos_small
+        descriptions.reverse()
+
+    return photos, photos_small, descriptions
 
 def save_urls_to_csv(photo_urls, output_file):
     """Save a list of photo URLs to a CSV file."""
@@ -49,8 +57,8 @@ def save_urls_to_csv(photo_urls, output_file):
 
 import os
 
-def create_jsx_file(urls_small, urls_large, path, alt, album_title, album_date, cover_idx):
-    # Start of the JSX content
+def create_jsx_file(urls_small, urls_large, descriptions, path, alt, album_title, album_date, cover_idx):
+
     jsx_content = f'''import React from "react";
 import ImageGrid from "../../ImageGrid";
 
@@ -65,12 +73,22 @@ const App = () => {{
     
     # Dynamically add the image objects based on the URLs list
     for i in range(len(urls_small)):
-        jsx_content += f'''
-        {{
-            imgSrcSmll: "{urls_small[i]}",
-            imgSrcLrg: "{urls_large[i]}",
-            alt: "{alt}",
-        }},'''
+        if descriptions[i] != "":
+            description = descriptions[i].replace('"', '\\"')  # Escape quotes for JSX safety
+            jsx_content += f'''
+            {{
+                imgSrcSmll: "{urls_small[i]}",
+                imgSrcLrg: "{urls_large[i]}",
+                alt: "{alt}",
+                description: "{description}"
+            }},'''
+        else:
+            jsx_content += f'''
+            {{
+                imgSrcSmll: "{urls_small[i]}",
+                imgSrcLrg: "{urls_large[i]}",
+                alt: "{alt}"
+            }},'''
 
     # Closing the JSX content
     jsx_content += '''
@@ -260,11 +278,19 @@ if __name__ == "__main__":
     albumPagePath = get_album_page_path(albumGroup)
 
     # Fetch photo URLs from the specified folder
-    photo_urls_large, photo_urls_small = list_photos_in_folder(folder_name=folder_name, reverse=args.reverse)
-
+    photo_urls_large, photo_urls_small, descriptions = list_photos_in_folder(folder_name=folder_name, reverse=args.reverse)
+    
     # write the photo album to the .jsx file
-    create_jsx_file(urls_small=photo_urls_small, urls_large=photo_urls_large, path=output_file, alt=alt, album_title=label, album_date=date, cover_idx=cover_index_image)
-
+    create_jsx_file(
+        urls_small=photo_urls_small,
+        urls_large=photo_urls_large,
+        descriptions=descriptions,
+        path=output_file,
+        alt=alt,
+        album_title=label,
+        album_date=date,
+        cover_idx=cover_index_image
+    )
     filename_with_extension = os.path.basename(output_file)
     # Split the filename and extension
 

@@ -2,7 +2,14 @@ import React from "react";
 import AlbumGrid from "../AlbumGrid";
 
 const albumsData = [
-    {
+
+  {
+    link: "/UK",
+    imgSrc: "https://res.cloudinary.com/dkbw0dpyp/image/upload/v1752430910/UK-250515-0710-00122_a27iu0.jpg",
+    alt: "United_Kingdom",
+    label: "United Kingdom",
+  },
+{
         link: "/Norge",
         imgSrc: "https://res.cloudinary.com/dkbw0dpyp/image/upload/v1723808744/personal/Norge/vqzt5f9dcj9us4jvyeur.jpg",
         alt: "Norway",

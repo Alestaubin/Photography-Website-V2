@@ -72,7 +72,7 @@ function ImageGrid({ items, coverImage, albumTitle, albumDate }) {
         <div id="image-grid-sizer" className="image-grid-sizer"></div>
         {items.map((item, index) => (
           <div className="image-grid-item" key={index}>
-            <div className="image-container-with-description">
+            <div className="image-overlay-container">
               <ModalImage
                 small={item.imgSrcLrg.replace("upload", `upload/c_scale,w_${1.5 * columnWidth}`)}
                 large={item.imgSrcLrg}
@@ -80,7 +80,7 @@ function ImageGrid({ items, coverImage, albumTitle, albumDate }) {
                 hideDownload={true}
               />
               {item.description && (
-                <div className="image-description">
+                <div className="overlay-description">
                   {item.description}
                 </div>
               )}

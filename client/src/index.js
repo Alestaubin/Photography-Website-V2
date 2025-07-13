@@ -49,6 +49,7 @@ import {
   CASA_NEWORKING,
   AE2CF_NETWORKING,
   PALAZO,
+  UK,
 } from "./components";
 
 ReactDOM.render(
@@ -84,6 +85,7 @@ ReactDOM.render(
         <Route path="/CoupeLaurentides23" element={<CoupeLaurentides23 />} />
         <Route path="/CamoNat24" element={<CamoNat24 />} />
       <Route path="/Personal" element={<Personal />} />
+      <Route path="/UK" element={<UK/>} />
         <Route path="/Dogs" element={<Dogs />} />
         <Route path="/FallMcGill" element={<FallMcGill />} />
         <Route path="/WinterMcGill" element={<WinterMcGill />} />

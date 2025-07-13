@@ -267,6 +267,7 @@ const App = () => {
             imgSrcSmll: "https://res.cloudinary.com/dkbw0dpyp/image/upload/v1723808749/personal/Norge/qjpkmsfgamwdbvzx6khz.jpg",
             imgSrcLrg: "https://res.cloudinary.com/dkbw0dpyp/image/upload/v1723808749/personal/Norge/qjpkmsfgamwdbvzx6khz.jpg",
             alt: "personal/Norge",
+            description: "A red cabin in the Lofoten Islands."
         },
         {
             imgSrcSmll: "https://res.cloudinary.com/dkbw0dpyp/image/upload/v1723808749/personal/Norge/bmsj65edrlell4b8roco.jpg",
