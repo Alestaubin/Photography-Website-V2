@@ -12,6 +12,7 @@ const App = () => {
             imgSrcSmll: "https://res.cloudinary.com/dkbw0dpyp/image/upload/v1721926436/personal/toronto/bxbrjm3wzirknneqxrr8.jpg",
             imgSrcLrg: "https://res.cloudinary.com/dkbw0dpyp/image/upload/v1721926436/personal/toronto/bxbrjm3wzirknneqxrr8.jpg",
             alt: "personal/toronto",
+            description: "This is a fun networking moment at UQAM."
         },
         {
             imgSrcSmll: "https://res.cloudinary.com/dkbw0dpyp/image/upload/v1721926439/personal/toronto/irehslcfhw0nxbdcyvkb.jpg",

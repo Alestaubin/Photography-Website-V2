@@ -23,6 +23,8 @@ function ImageGrid({ items, coverImage, albumTitle, albumDate }) {
 
   async function load_images() {
     const grid = document.querySelector(".image-grid");
+    grid.addEventListener("mouseover", () => msnry.layout(), true);
+    grid.addEventListener("mouseout", () => msnry.layout(), true);
     const sizer = document.querySelector(".image-grid-sizer");
 
     const msnry = new Masonry(grid, {
@@ -35,6 +37,7 @@ function ImageGrid({ items, coverImage, albumTitle, albumDate }) {
       msnry.layout();
       console.log(msnry);
     });
+    grid.addEventListener("mouseenter", () => msnry.layout(), true);
   }
 
   function scrollToGrid() {
@@ -69,16 +72,23 @@ function ImageGrid({ items, coverImage, albumTitle, albumDate }) {
         <div id="image-grid-sizer" className="image-grid-sizer"></div>
         {items.map((item, index) => (
           <div className="image-grid-item" key={index}>
-            <ModalImage
-              small={item.imgSrcLrg.replace("upload", `upload/c_scale,w_${1.5*columnWidth}`)}
-              large={item.imgSrcLrg}
-              hideZoom={false}
-              hideDownload={true}
-            />
+            <div className="image-container-with-description">
+              <ModalImage
+                small={item.imgSrcLrg.replace("upload", `upload/c_scale,w_${1.5 * columnWidth}`)}
+                large={item.imgSrcLrg}
+                hideZoom={false}
+                hideDownload={true}
+              />
+              {item.description && (
+                <div className="image-description">
+                  {item.description}
+                </div>
+              )}
+            </div>
           </div>
-        ))}
+        ))}      
+        </div>
       </div>
-    </div>
   );
 }
 
@@ -88,6 +98,7 @@ ImageGrid.propTypes = {
       imgSrcSmll: PropTypes.string.isRequired,
       imgSrcLrg: PropTypes.string.isRequired,
       alt: PropTypes.string.isRequired,
+      description: PropTypes.string,
     })
   ).isRequired,
   coverImage: PropTypes.shape({
