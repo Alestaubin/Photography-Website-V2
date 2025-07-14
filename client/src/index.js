@@ -29,7 +29,6 @@ import {
   WinterMcGill,
   SummerMcGill,
   Toronto,
-  Golf,
   Norge,
   MARIAGE_RAPH_FEL_24,
   Integ_uqam_24,
@@ -92,7 +91,6 @@ ReactDOM.render(
         <Route path="/SummerMcGill" element={<SummerMcGill />} />
         <Route path="/Toronto" element={<Toronto />} />
         <Route path="/Norge" element={<Norge />} />
-        <Route path="/Golf" element={<Golf />} />
       <Route path="/Commercial" element={<Commercial />} />
         <Route path="/MARIAGE_RAPH_FEL_24" element={<MARIAGE_RAPH_FEL_24 />} />
         <Route path="/Hec5" element={<Hec5 />} />

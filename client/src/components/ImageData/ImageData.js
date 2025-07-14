@@ -182,11 +182,6 @@ const UnsplashImages = [
         description: null
     },
     {
-        src: "https://res.cloudinary.com/dkbw0dpyp/image/upload/v1744403238/portfolio/vkukcu5bircnpifm1sk4.jpg",
-        title: null,
-        description: null
-    },
-    {
         src: "https://res.cloudinary.com/dkbw0dpyp/image/upload/v1744570653/Portfolio2/m5ck1wtlsqyeji3uwgia.jpg",
         title: null,
         description: null
