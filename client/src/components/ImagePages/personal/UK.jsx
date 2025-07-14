@@ -117,10 +117,28 @@ const App = () => {
                 description: "Clonmacnoise Monastic Site, Ireland."
             },
             {
+                imgSrcSmll: "https://res.cloudinary.com/dkbw0dpyp/image/upload/c_scale,w_768/v1752532232/UK-250524-1029-01351_cwyqls.jpg",
+                imgSrcLrg: "https://res.cloudinary.com/dkbw0dpyp/image/upload/v1752532232/UK-250524-1029-01351_cwyqls.jpg",
+                alt: "United_Kingdom",
+                description: "The visually striking Kylesku Bridge, built in 1981."
+            },
+            {
                 imgSrcSmll: "https://res.cloudinary.com/dkbw0dpyp/image/upload/c_scale,w_768/v1752431020/UK-250524-1053-01372_o1p2gq.jpg",
                 imgSrcLrg: "https://res.cloudinary.com/dkbw0dpyp/image/upload/v1752431020/UK-250524-1053-01372_o1p2gq.jpg",
                 alt: "United_Kingdom",
                 description: "Ardvreck Castle, Scottish Highlands."
+            },
+            {
+                imgSrcSmll: "https://res.cloudinary.com/dkbw0dpyp/image/upload/c_scale,w_768/v1752532244/UK-250524-1049-01366_dace51.jpg",
+                imgSrcLrg: "https://res.cloudinary.com/dkbw0dpyp/image/upload/v1752532244/UK-250524-1049-01366_dace51.jpg",
+                alt: "United_Kingdom",
+                description: "Ardvreck Castle, Scottish Highlands."
+            },
+            {
+                imgSrcSmll: "https://res.cloudinary.com/dkbw0dpyp/image/upload/c_scale,w_768/v1752532286/UK-250524-1055-01380_ytfslj.jpg",
+                imgSrcLrg: "https://res.cloudinary.com/dkbw0dpyp/image/upload/v1752532286/UK-250524-1055-01380_ytfslj.jpg",
+                alt: "United_Kingdom",
+                description: "Leo and Keevyn admiring the Ardvreck Castle, Scottish Highlands."
             },
             {
                 imgSrcSmll: "https://res.cloudinary.com/dkbw0dpyp/image/upload/c_scale,w_768/v1752431017/UK-250524-0949-01347_zquu8r.jpg",
@@ -283,7 +301,13 @@ const App = () => {
                 imgSrcSmll: "https://res.cloudinary.com/dkbw0dpyp/image/upload/c_scale,w_768/v1752430941/UK-250523-0727-00859_pyzjpr.jpg",
                 imgSrcLrg: "https://res.cloudinary.com/dkbw0dpyp/image/upload/v1752430941/UK-250523-0727-00859_pyzjpr.jpg",
                 alt: "United_Kingdom",
-                description: "By the Sligachan river, Isle of Skye, Scotland."
+                description: "Leo, Lisa, and Keevyn, walking by the Sligachan river, Isle of Skye, Scotland."
+            },
+            {
+                imgSrcSmll: "https://res.cloudinary.com/dkbw0dpyp/image/upload/c_scale,w_768/v1752532222/UK-250523-0730-00876_j3pf9b.jpg",
+                imgSrcLrg: "https://res.cloudinary.com/dkbw0dpyp/image/upload/v1752532222/UK-250523-0730-00876_j3pf9b.jpg",
+                alt: "United_Kingdom",
+                description: "Leo and Lisa standing by the Sligachan river, Isle of Skye, Scotland."
             },
             {
                 imgSrcSmll: "https://res.cloudinary.com/dkbw0dpyp/image/upload/c_scale,w_768/v1752430939/UK-250523-0607-00837_v7mb3w.jpg",
