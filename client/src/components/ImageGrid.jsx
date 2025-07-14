@@ -23,9 +23,7 @@ function ImageGrid({ items, coverImage, albumTitle, albumDate }) {
 
   async function load_images() {
     const grid = document.querySelector(".image-grid");
-    grid.addEventListener("mouseover", () => msnry.layout(), true);
-    grid.addEventListener("mouseout", () => msnry.layout(), true);
-    const sizer = document.querySelector(".image-grid-sizer");
+    // const sizer = document.querySelector(".image-grid-sizer");
 
     const msnry = new Masonry(grid, {
       itemSelector: ".image-grid-item",
@@ -37,7 +35,6 @@ function ImageGrid({ items, coverImage, albumTitle, albumDate }) {
       msnry.layout();
       console.log(msnry);
     });
-    grid.addEventListener("mouseenter", () => msnry.layout(), true);
   }
 
   function scrollToGrid() {

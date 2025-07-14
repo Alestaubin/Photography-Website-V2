@@ -110,38 +110,6 @@ html, body {
     color: black;
 }
 
-.image-container-with-description {
-  position: relative;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  transition: all 0.3s ease;
-}
-
-.image-description {
-  opacity: 0;
-  max-height: 0;
-  overflow: hidden;
-  transition: all 0.3s ease;
-  text-align: center;
-  padding: 0 5px;
-  font-size: 0.95rem;
-  color: #333;
-}
-
-.image-grid-item:hover .image-description {
-  opacity: 1;
-  max-height: 200px;
-  margin-top: 8px;
-}
-
-/* .image-grid-item img:hover + .image-description {
-  opacity: 1;
-  max-height: 100px;
-  margin-top: 8px;
-} */
-
 .image-overlay-container {
   position: relative;
   width: 100%;
@@ -154,15 +122,13 @@ html, body {
   left: 0;
   right: 0;
   padding: 12px;
-  /*background: rgba(0, 0, 0, 0.6); semi-transparent black */
   color: white;
-  /*mix-blend-mode: difference; /* ← key */
-  text-shadow: 0 0 4px black; /* creates readable contrast */
+  text-shadow: 0 0 4px black; 
   opacity: 0;
   transition: opacity 0.3s ease;
   font-size: 0.9rem;
   text-align: right;
-  pointer-events: none; /* allows clicks to pass through to ModalImage */
+  pointer-events: none; 
 }
 
 .image-overlay-container:hover .overlay-description {
