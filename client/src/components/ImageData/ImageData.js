@@ -162,11 +162,6 @@ const UnsplashImages = [
         description: null
     },
     {
-        src: "https://res.cloudinary.com/dkbw0dpyp/image/upload/v1744403230/portfolio/rgydtbchezuiqtcm2viq.jpg",
-        title: null,
-        description: null
-    },
-    {
         src: "https://res.cloudinary.com/dkbw0dpyp/image/upload/c_scale,w_960/v1730694615/events/halloween-rouge/daevtwcl73c2nrzrcyc0.jpg",
         title: null,
         description: null
@@ -206,107 +201,12 @@ const UnsplashImages = [
         title: null,
         description: null
     },
-
-    {
-        src: "https://res.cloudinary.com/dkbw0dpyp/image/upload/v1744403257/portfolio/eiy2yrxfhqwmdyxwytfa.jpg",
-        title: null,
-        description: null
-    },
-    {
-        src: "https://res.cloudinary.com/dkbw0dpyp/image/upload/v1744403260/portfolio/plo4deu3xgc0ka1owvs0.jpg",
-        title: null,
-        description: null
-    },
-    {
-        src: "https://res.cloudinary.com/dkbw0dpyp/image/upload/v1744403256/portfolio/a7byrwsfdwaksjtohpec.jpg",
-        title: null,
-        description: null
-    },{
-        src: "https://res.cloudinary.com/dkbw0dpyp/image/upload/v1744403255/portfolio/yzn3jz8ajjrdubtflruj.jpg",
-        title: null,
-        description: null
-    },{
-        src: "https://res.cloudinary.com/dkbw0dpyp/image/upload/v1744403252/portfolio/radpew9kg8dxagjvx5xu.jpg",
-        title: null,
-        description: null
-    },{
-        src: "https://res.cloudinary.com/dkbw0dpyp/image/upload/v1744403251/portfolio/wptu7zxeq8q9ncvrejuv.jpg",
-        title: null,
-        description: null
-    },
-    {
-        src: "https://res.cloudinary.com/dkbw0dpyp/image/upload/v1744403228/portfolio/q8xfwtnybgxxqz4bubf8.jpg",
-        title: null,
-        description: null
-    },{
-        src: "https://res.cloudinary.com/dkbw0dpyp/image/upload/v1744403251/portfolio/ncx1dh7szzafkynlwi45.jpg",
-        title: null,
-        description: null
-    },{
-        src: "https://res.cloudinary.com/dkbw0dpyp/image/upload/v1744403249/portfolio/vfvrg9cphgf3amrl1au4.jpg",
-        title: null,
-        description: null
-    },{
-        src: "https://res.cloudinary.com/dkbw0dpyp/image/upload/v1744403248/portfolio/i6hgc54vumtbho39ip53.jpg",
-        title: null,
-        description: null
-    },{
-        src: "https://res.cloudinary.com/dkbw0dpyp/image/upload/v1744403248/portfolio/jw9gtv6fvxtbfa7jyrxf.jpg",
-        title: null,
-        description: null
-    },
     {
         src: "https://res.cloudinary.com/dkbw0dpyp/image/upload/v1723808744/personal/Norge/vqzt5f9dcj9us4jvyeur.jpg",
         title: null,
         description: null
     },
-    {
-        src: "https://res.cloudinary.com/dkbw0dpyp/image/upload/v1744403246/portfolio/mwjswisxhwjcinvaur8m.jpg",
-        title: null,
-        description: null
-    },{
-        src: "https://res.cloudinary.com/dkbw0dpyp/image/upload/v1744403245/portfolio/kxkkbg741izz6jtru3mc.jpg",
-        title: null,
-        description: null
-    },
-
-    {
-        src: "https://res.cloudinary.com/dkbw0dpyp/image/upload/v1744403229/portfolio/v9uyydyw0gmqnp2264ig.jpg",
-        title: null,
-        description: null
-    },
-    {
-        src: "https://res.cloudinary.com/dkbw0dpyp/image/upload/v1744403244/portfolio/vnlq242p1m29asdwaxfl.jpg",
-        title: null,
-        description: null
-    },
-
-    {
-        src: "https://res.cloudinary.com/dkbw0dpyp/image/upload/v1744403237/portfolio/tdckfpsjmvm1oe6ig3hb.jpg",
-        title: null,
-        description: null
-    },
-    {
-        src: "https://res.cloudinary.com/dkbw0dpyp/image/upload/v1744403232/portfolio/vcn463bwu1uxgcnhce1f.jpg",
-        title: null,
-        description: null
-    },
-    {
-        src: "https://res.cloudinary.com/dkbw0dpyp/image/upload/v1744403227/portfolio/vo941tiyjuqzz9pmztgu.jpg",
-        title: null,
-        description: null
-    },
-    {
-        src: "https://res.cloudinary.com/dkbw0dpyp/image/upload/v1721916886/portfolio/wgllaawqpt1hisr89jhk.jpg",
-        title: null,
-        description: null
-    },
-    {
-        src: "https://res.cloudinary.com/dkbw0dpyp/image/upload/v1721917459/portfolio/evv954slky3w7crdva1z.jpg",
-        title: null,
-        description: null
-    },
-    {
+{
         src: "https://res.cloudinary.com/dkbw0dpyp/image/upload/v1730692917/events/PERT-board/hhbwtqzhxc3eeizague0.jpg",
         title: null,
         description: null
